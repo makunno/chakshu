@@ -1,0 +1,99 @@
+{
+  "log_type": "dhcp",
+  "category": "network",
+  "description": "DHCP logs",
+  "version": "1.0.0",
+  "trained_at": "2026-02-03T12:26:21.411940",
+  "feature_names": [
+    "error_count",
+    "error_rate",
+    "line_count",
+    "unique_ips"
+  ],
+  "features": [
+    "discover_rate",
+    "offer_rate",
+    "request_rate",
+    "ack_rate",
+    "nak_rate",
+    "unique_clients",
+    "new_clients",
+    "renews_per_hour"
+  ],
+  "attack_patterns": [
+    "rogue_dhcp",
+    "dhcp_starvation",
+    "mitm"
+  ],
+  "feature_statistics": {
+    "means": [
+      13.383333333333333,
+      0.06785833333333333,
+      198.33333333333334,
+      0.0
+    ],
+    "stds": [
+      73.86068491373054,
+      0.09960014332590436,
+      798.2264624408396,
+      0.001
+    ],
+    "mins": [
+      0.0,
+      0.0,
+      100.0,
+      0.0
+    ],
+    "maxs": [
+      812.0,
+      0.32,
+      8000.0,
+      0.0
+    ]
+  },
+  "model": {
+    "type": "isolation_forest",
+    "n_estimators": 100,
+    "contamination": 0.2,
+    "score_range": [
+      -0.37275971132126845,
+      0.05917553752204269
+    ],
+    "score_mean": 0.02177411707645219,
+    "score_std": 0.07621692476542904,
+    "anomaly_threshold": 0.0,
+    "training_samples": 120,
+    "accuracy": 0.85,
+    "score_distribution": {
+      "min": -0.37275971132126845,
+      "max": 0.05917553752204269,
+      "mean": 0.02177411707645219,
+      "percentile_5": -0.10389573999866321,
+      "percentile_95": 0.05917553752204269
+    }
+  },
+  "attack_labels": {
+    "normal": 0,
+    "bruteforce": 1,
+    "password_spray": 2,
+    "sql_injection": 3,
+    "xss_attack": 4,
+    "path_traversal": 5,
+    "command_injection": 6,
+    "privilege_escalation": 7,
+    "data_exfiltration": 8,
+    "port_scan": 9,
+    "reconnaissance": 10,
+    "malware_activity": 11,
+    "c2_communication": 12,
+    "dos": 13,
+    "ransomware": 14,
+    "log4shell": 15,
+    "insider_threat": 16,
+    "account_takeover": 17,
+    "lateral_movement": 18,
+    "cryptomining": 19,
+    "webshell": 20,
+    "anomaly": 21
+  }
+}

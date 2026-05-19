@@ -1,0 +1,7 @@
+Registry Hives for Partition 0
+Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/2020JimmyWilson.E01
+Offset: 34 bytes
+Filesystem: ntfs
+================================================================================
+
+No registry hives found in standard locations.

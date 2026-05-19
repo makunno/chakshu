@@ -1,0 +1,9 @@
+Registry Hives for Partition 0
+Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/jo-favorites-usb-2009-12-11.E01
+Offset: 63 bytes
+Filesystem: auto
+================================================================================
+
+No registry hives found in standard locations.
+
+Searching full output for .DAT/.LOG files...

@@ -1,0 +1,98 @@
+{
+  "log_type": "kubernetes",
+  "category": "container",
+  "description": "Kubernetes cluster logs",
+  "version": "1.0.0",
+  "trained_at": "2026-02-03T12:26:22.269749",
+  "feature_names": [
+    "error_count",
+    "error_rate",
+    "line_count",
+    "unique_ips"
+  ],
+  "features": [
+    "pod_count",
+    "container_count",
+    "error_count",
+    "restart_count",
+    "resource_usage",
+    "api_operations",
+    "scheduler_events"
+  ],
+  "attack_patterns": [
+    "container_escape",
+    "privilege_escalation",
+    "crypto_mining"
+  ],
+  "feature_statistics": {
+    "means": [
+      13.916666666666666,
+      0.07026666666666669,
+      198.33333333333334,
+      0.0
+    ],
+    "stds": [
+      77.12628588097569,
+      0.10289273226726671,
+      798.2264624408396,
+      0.001
+    ],
+    "mins": [
+      0.0,
+      0.0,
+      100.0,
+      0.0
+    ],
+    "maxs": [
+      848.0,
+      0.3,
+      8000.0,
+      0.0
+    ]
+  },
+  "model": {
+    "type": "isolation_forest",
+    "n_estimators": 100,
+    "contamination": 0.2,
+    "score_range": [
+      -0.3614940349475883,
+      0.07476174960769139
+    ],
+    "score_mean": 0.035229881953708166,
+    "score_std": 0.07602680579506614,
+    "anomaly_threshold": 0.0,
+    "training_samples": 120,
+    "accuracy": 0.85,
+    "score_distribution": {
+      "min": -0.3614940349475883,
+      "max": 0.07476174960769139,
+      "mean": 0.035229881953708166,
+      "percentile_5": -0.09384109913821718,
+      "percentile_95": 0.07476174960769139
+    }
+  },
+  "attack_labels": {
+    "normal": 0,
+    "bruteforce": 1,
+    "password_spray": 2,
+    "sql_injection": 3,
+    "xss_attack": 4,
+    "path_traversal": 5,
+    "command_injection": 6,
+    "privilege_escalation": 7,
+    "data_exfiltration": 8,
+    "port_scan": 9,
+    "reconnaissance": 10,
+    "malware_activity": 11,
+    "c2_communication": 12,
+    "dos": 13,
+    "ransomware": 14,
+    "log4shell": 15,
+    "insider_threat": 16,
+    "account_takeover": 17,
+    "lateral_movement": 18,
+    "cryptomining": 19,
+    "webshell": 20,
+    "anomaly": 21
+  }
+}

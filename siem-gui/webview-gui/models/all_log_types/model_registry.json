@@ -1,0 +1,170 @@
+{
+  "models": {
+    "apache": {
+      "file": "apache_model.json",
+      "category": "webserver",
+      "features_count": 8,
+      "training_samples": 120
+    },
+    "nginx": {
+      "file": "nginx_model.json",
+      "category": "webserver",
+      "features_count": 8,
+      "training_samples": 120
+    },
+    "iis": {
+      "file": "iis_model.json",
+      "category": "webserver",
+      "features_count": 8,
+      "training_samples": 120
+    },
+    "ssh_auth": {
+      "file": "ssh_auth_model.json",
+      "category": "auth",
+      "features_count": 7,
+      "training_samples": 120
+    },
+    "syslog": {
+      "file": "syslog_model.json",
+      "category": "system",
+      "features_count": 6,
+      "training_samples": 120
+    },
+    "firewall": {
+      "file": "firewall_model.json",
+      "category": "firewall",
+      "features_count": 7,
+      "training_samples": 120
+    },
+    "mysql_error": {
+      "file": "mysql_error_model.json",
+      "category": "database",
+      "features_count": 6,
+      "training_samples": 120
+    },
+    "postgres_error": {
+      "file": "postgres_error_model.json",
+      "category": "database",
+      "features_count": 6,
+      "training_samples": 120
+    },
+    "postfix": {
+      "file": "postfix_model.json",
+      "category": "mail",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "apache_error": {
+      "file": "apache_error_model.json",
+      "category": "webserver",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "linux_kernel": {
+      "file": "linux_kernel_model.json",
+      "category": "system",
+      "features_count": 6,
+      "training_samples": 120
+    },
+    "windows_event": {
+      "file": "windows_event_model.json",
+      "category": "system",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "suricata": {
+      "file": "suricata_model.json",
+      "category": "ids",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "cloudtrail": {
+      "file": "cloudtrail_model.json",
+      "category": "cloud",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "dns": {
+      "file": "dns_model.json",
+      "category": "network",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "dhcp": {
+      "file": "dhcp_model.json",
+      "category": "network",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "squid": {
+      "file": "squid_model.json",
+      "category": "proxy",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "elasticsearch": {
+      "file": "elasticsearch_model.json",
+      "category": "database",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "rabbitmq": {
+      "file": "rabbitmq_model.json",
+      "category": "messaging",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "mongodb": {
+      "file": "mongodb_model.json",
+      "category": "database",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "kubernetes": {
+      "file": "kubernetes_model.json",
+      "category": "container",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "zeek": {
+      "file": "zeek_model.json",
+      "category": "network",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "ossec": {
+      "file": "ossec_model.json",
+      "category": "ids",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "aws_vpc_flow": {
+      "file": "aws_vpc_flow_model.json",
+      "category": "cloud",
+      "features_count": 4,
+      "training_samples": 120
+    },
+    "azure_nsg": {
+      "file": "azure_nsg_model.json",
+      "category": "cloud",
+      "features_count": 4,
+      "training_samples": 120
+    }
+  },
+  "trained_at": "2026-02-03T12:26:13.624735",
+  "total_models": 25,
+  "categories": {
+    "webserver": 4,
+    "auth": 1,
+    "system": 3,
+    "firewall": 1,
+    "database": 4,
+    "mail": 1,
+    "ids": 2,
+    "cloud": 3,
+    "network": 3,
+    "proxy": 1,
+    "messaging": 1,
+    "container": 1
+  }
+}

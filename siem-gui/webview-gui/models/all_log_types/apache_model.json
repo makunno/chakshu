@@ -1,0 +1,123 @@
+{
+  "log_type": "apache",
+  "category": "webserver",
+  "description": "Apache/Nginx HTTP access logs",
+  "version": "1.0.0",
+  "trained_at": "2026-02-03T12:26:15.061374",
+  "feature_names": [
+    "avg_response_time",
+    "error_rate",
+    "status_5xx_ratio",
+    "total_requests",
+    "unique_ips",
+    "unique_referers",
+    "unique_urls",
+    "unique_user_agents"
+  ],
+  "features": [
+    "status_5xx_ratio",
+    "avg_response_time",
+    "unique_urls",
+    "unique_ips",
+    "requests_per_minute",
+    "bytes_per_request",
+    "error_rate",
+    "unique_user_agents",
+    "get_post_ratio",
+    "unique_referers"
+  ],
+  "attack_patterns": [
+    "sql_injection",
+    "xss",
+    "path_traversal",
+    "bruteforce",
+    "scanning"
+  ],
+  "feature_statistics": {
+    "means": [
+      0.0,
+      0.061436458333333346,
+      0.010341666666666671,
+      198.33333333333334,
+      50.68333333333333,
+      0.0,
+      13.166666666666666,
+      0.0
+    ],
+    "stds": [
+      0.001,
+      0.062044056400534175,
+      0.017789627667766258,
+      798.2264624408396,
+      13.585907884200841,
+      0.001,
+      4.497912521077347,
+      0.001
+    ],
+    "mins": [
+      0.0,
+      0.0,
+      0.0,
+      100.0,
+      38.0,
+      0.0,
+      10.0,
+      0.0
+    ],
+    "maxs": [
+      0.0,
+      0.24,
+      0.06,
+      8000.0,
+      149.0,
+      0.0,
+      20.0,
+      0.0
+    ]
+  },
+  "model": {
+    "type": "isolation_forest",
+    "n_estimators": 100,
+    "contamination": 0.2,
+    "score_range": [
+      -0.25373665080317076,
+      0.1324292130790738
+    ],
+    "score_mean": 0.04358176933117098,
+    "score_std": 0.0700573469730713,
+    "anomaly_threshold": 1.7618285302889447e-19,
+    "training_samples": 120,
+    "accuracy": 0.85,
+    "score_distribution": {
+      "min": -0.25373665080317076,
+      "max": 0.1324292130790738,
+      "mean": 0.04358176933117098,
+      "percentile_5": -0.08850235613084018,
+      "percentile_95": 0.12250756314475404
+    }
+  },
+  "attack_labels": {
+    "normal": 0,
+    "bruteforce": 1,
+    "password_spray": 2,
+    "sql_injection": 3,
+    "xss_attack": 4,
+    "path_traversal": 5,
+    "command_injection": 6,
+    "privilege_escalation": 7,
+    "data_exfiltration": 8,
+    "port_scan": 9,
+    "reconnaissance": 10,
+    "malware_activity": 11,
+    "c2_communication": 12,
+    "dos": 13,
+    "ransomware": 14,
+    "log4shell": 15,
+    "insider_threat": 16,
+    "account_takeover": 17,
+    "lateral_movement": 18,
+    "cryptomining": 19,
+    "webshell": 20,
+    "anomaly": 21
+  }
+}

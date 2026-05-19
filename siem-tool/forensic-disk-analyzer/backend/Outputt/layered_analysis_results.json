@@ -1,0 +1,3891 @@
+{
+  "analysis_summary": {
+    "total_files_analyzed": 254,
+    "suspicious_files": 251,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "partitions_analyzed": 1
+  },
+  "partition_results": [
+    {
+      "partition": 0,
+      "result": {
+        "analysis_summary": {
+          "total_files_analyzed": 254,
+          "suspicious_files": 251,
+          "critical": 0,
+          "high": 0,
+          "medium": 0
+        },
+        "suspicious_files": [
+          {
+            "filename": "0",
+            "file_reference": 4,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 5,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 6,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 7,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 8,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 9,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 10,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 11,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 12,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 13,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 14,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 15,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 16,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 17,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 18,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 19,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 20,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 21,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 22,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 23,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 24,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 25,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 26,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 27,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 28,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 29,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 30,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 31,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 32,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 33,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 34,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 35,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 36,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 37,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 38,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 39,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 40,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 41,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 42,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 43,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 44,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 45,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 46,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 47,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 48,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 49,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 50,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 51,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 52,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 53,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 54,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 55,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 56,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 57,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 58,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 59,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 60,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 61,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 62,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 63,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 64,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 65,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 66,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 67,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 68,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 69,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 70,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 71,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 72,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 73,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 74,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 75,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 76,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 77,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 78,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 79,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 80,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 81,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 82,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 83,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 84,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 85,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 86,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 87,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 88,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 89,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 90,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 91,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 92,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 93,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 94,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 95,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 96,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 97,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 98,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 99,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 100,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 101,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 102,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 103,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 104,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 105,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 106,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 107,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 108,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 109,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 110,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 111,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 112,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 113,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 114,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 115,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 116,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 117,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 118,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 119,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 120,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 121,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 122,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 123,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 124,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 125,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 126,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 127,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 128,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 129,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 130,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 131,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 132,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 133,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 134,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 135,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 136,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 137,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 138,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 139,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 140,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 141,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 142,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 143,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 144,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 145,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 146,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 147,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 148,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 149,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 150,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 151,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 152,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 153,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 154,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 155,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 156,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 157,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 158,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 159,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 160,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 161,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 162,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 163,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 164,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 165,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 166,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 167,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 168,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 169,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 170,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 171,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 172,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 173,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 174,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 175,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 176,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 177,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 178,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 179,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 180,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 181,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 182,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 183,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 184,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 185,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 186,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 187,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 188,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 189,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 190,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 191,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 192,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 193,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 194,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 195,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 196,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 197,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 198,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 199,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 200,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 201,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 202,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 203,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 204,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 205,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 206,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 207,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 208,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 209,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 210,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 211,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 212,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 213,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 214,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 215,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 216,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 217,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 218,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 219,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 220,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 221,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 222,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 223,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 224,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 225,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 226,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 227,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 228,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 229,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 230,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 231,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 232,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 233,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 234,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 235,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 236,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 237,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 238,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 239,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 240,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 241,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 242,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 243,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 244,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 245,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 246,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 247,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 248,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 249,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 250,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 251,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 252,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 253,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          },
+          {
+            "filename": "0",
+            "file_reference": 254,
+            "severity": "LOW",
+            "score": 30.0,
+            "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+            "affected_layers": [
+              "text_fallback"
+            ],
+            "recommendation": "Verify with binary MFT analysis if available"
+          }
+        ]
+      },
+      "type": "text"
+    }
+  ],
+  "findings": [],
+  "suspicious_files": [
+    {
+      "filename": "0",
+      "file_reference": 4,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 5,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 6,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 7,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 8,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 9,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 10,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 11,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 12,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 13,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 14,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 15,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 16,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 17,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 18,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 19,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 20,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 21,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 22,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 23,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 24,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 25,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 26,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 27,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 28,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 29,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 30,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 31,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 32,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 33,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 34,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 35,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 36,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 37,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 38,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 39,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 40,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 41,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 42,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 43,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 44,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 45,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 46,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 47,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 48,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 49,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 50,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 51,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 52,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 53,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 54,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 55,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 56,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 57,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 58,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 59,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 60,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 61,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 62,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 63,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 64,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 65,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 66,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 67,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 68,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 69,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 70,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 71,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 72,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 73,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 74,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 75,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 76,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 77,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 78,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 79,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 80,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 81,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 82,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 83,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 84,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 85,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 86,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 87,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 88,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 89,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 90,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 91,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 92,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 93,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 94,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 95,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 96,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 97,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 98,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 99,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 100,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 101,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 102,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    },
+    {
+      "filename": "0",
+      "file_reference": 103,
+      "severity": "LOW",
+      "score": 30.0,
+      "explanation": "Text-based: Identical SI/FN timestamps detected in timeline",
+      "affected_layers": [
+        "text_fallback"
+      ],
+      "recommendation": "Verify with binary MFT analysis if available"
+    }
+  ]
+}

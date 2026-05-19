@@ -1,0 +1,19 @@
+{
+  "name": "cyberchakshu",
+  "compatibility_date": "2026-02-02",
+  "pages_build_output_dir": "dist",
+  "pages": {
+    "compatibility_date": "2026-02-02",
+    "build": {
+      "command": "npm run build",
+      "output_directory": "dist"
+    },
+    "env": {
+      "production": {
+        "vars": {
+          "VITE_API_URL": "https://siem-backend.tanubhavj.workers.dev"
+        }
+      }
+    }
+  }
+}

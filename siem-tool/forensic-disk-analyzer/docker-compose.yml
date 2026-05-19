@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  forensic-analyzer:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: forensic-disk-analyzer
+    hostname: forensic-analyzer
+    security_opt:
+      - seccomp:unconfined
+    cap_add:
+      - SYS_RAWIO
+    volumes:
+      - ./input:/input:ro
+      - ./output:/output
+    environment:
+      - PYTHONUNBUFFERED=1
+    working_dir: /app
+    command: >
+      python run_forensic_pipeline.py
+      /input/disk.image
+      /output
+    stdin_open: true
+    tty: true

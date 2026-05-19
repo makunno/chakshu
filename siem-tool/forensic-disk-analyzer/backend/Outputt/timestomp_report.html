@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cyber Chakshu Timestomping Report</title>
+    <style>
+        body { font-family: 'Courier New', monospace; margin: 40px; background: #1a1a1a; color: #e0e0e0; }
+        h1, h2, h3 { color: #00ff00; }
+        .header { background: #0d0d0d; padding: 20px; border: 2px solid #00ff00; margin-bottom: 20px; }
+        .summary { display: flex; gap: 20px; margin: 20px 0; }
+        .stat { background: #0d0d0d; padding: 15px 25px; border-left: 4px solid #00ff00; }
+        .critical { border-color: #ff0000; color: #ff4444; }
+        .high { border-color: #ff8800; color: #ffaa00; }
+        .medium { border-color: #ffff00; color: #ffff00; }
+        .finding { background: #0d0d0d; padding: 15px; margin: 10px 0; border-left: 4px solid; }
+        .finding.critical { border-color: #ff0000; }
+        .finding.high { border-color: #ff8800; }
+        .finding.medium { border-color: #ffff00; }
+        .indicator { background: #222; padding: 8px; margin: 5px 0; font-size: 0.9em; }
+        .meta { color: #888; font-size: 0.8em; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { padding: 10px; text-align: left; border-bottom: 1px solid #333; }
+        th { background: #0d0d0d; color: #00ff00; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Cyber Chakshu Timestomping Detection Report</h1>
+        <p class="meta">Generated: 2026-02-28T21:46:40.669319</p>
+        <p class="meta">Directory: Outputt</p>
+    </div>
+    
+    <h2>Executive Summary</h2>
+    <div class="summary">
+        <div class="stat critical">CRITICAL: 0</div>
+        <div class="stat high">HIGH: 2</div>
+        <div class="stat medium">MEDIUM: 0</div>
+        <div class="stat">Total Analyzed: 194</div>
+    </div>
+    
+    <h2>Critical Findings</h2>
+    <p>No critical findings.</p>
+
+    <h2>High Severity Findings</h2>
+
+    <div class="finding high">
+        <h3>JO FAVORITE (Volume Label Entry)</h3>
+        <p>Score: 75.0</p>
+
+        <div class="indicator">Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation</div>
+    </div>
+
+    <div class="finding high">
+        <h3>$OrphanFiles</h3>
+        <p>Score: 75.0</p>
+
+        <div class="indicator">Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation</div>
+    </div>
+
+</body>
+</html>

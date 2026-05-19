@@ -1,0 +1,7 @@
+# Cyber Chakshu SIEM - Forensic Disk Analyzer
+# Python dependencies
+
+# Core
+python-dateutil>=2.8.2
+
+# No additional pip dependencies needed - uses The Sleuth Kit CLI tools

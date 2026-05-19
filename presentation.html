@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Chakshu SIEM - ISEA Project</title>
+    <style>
+        :root {
+            --primary: #0066cc;
+            --secondary: #0099cc;
+            --bg-light: #f8fafc;
+            --bg-white: #ffffff;
+            --text-dark: #1e293b;
+            --text-main: #334155;
+            --text-dim: #64748b;
+            --accent: #dc2626;
+            --border: #e2e8f0;
+            --shadow: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Presentation Wrapper */
+        .presentation-wrapper {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .slide {
+            display: none;
+            width: 100%;
+            max-width: 1200px;
+            height: 90%;
+            background: var(--bg-white);
+            padding: 60px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px var(--shadow);
+            border: 1px solid var(--border);
+            box-sizing: border-box;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .slide.active { display: flex; animation: fadeIn 0.4s ease-out; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Typography */
+        h1 { font-size: 3.5rem; text-align: center; background: linear-gradient(to right, var(--primary), var(--secondary)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0 0 20px 0; }
+        h2 { font-size: 2.5rem; color: var(--primary); margin-bottom: 30px; border-bottom: 2px solid var(--border); padding-bottom: 15px; }
+        h3 { color: var(--secondary); font-size: 1.8rem; margin: 20px 0 10px 0; }
+
+        .content-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 100%;
+        }
+
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin: 20px 0; }
+        
+        ul { line-height: 1.6; font-size: 1.25rem; color: var(--text-main); margin: 0; }
+        li { margin-bottom: 12px; }
+        li strong { color: var(--primary); }
+
+        /* Navigation Bar */
+        .nav-bar {
+            height: 80px;
+            background: var(--bg-white);
+            border-top: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+            z-index: 1000;
+        }
+
+        .nav-info { color: var(--text-dim); font-size: 0.9rem; }
+
+        .btn-group { display: flex; gap: 15px; }
+
+        button {
+            background: var(--bg-white);
+            color: var(--text-dark);
+            border: 1px solid var(--border);
+            padding: 10px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 2px 4px var(--shadow);
+        }
+
+        button:hover:not(:disabled) { background: var(--primary); color: white; border-color: var(--primary); }
+        button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+        .highlight-box {
+            background: rgba(0, 102, 204, 0.05);
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 5px solid var(--primary);
+        }
+
+        .accent-box {
+            background: rgba(220, 38, 38, 0.05);
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid var(--accent);
+        }
+    </style>
+</head>
+<body>
+
+<div class="presentation-wrapper">
+    <div class="slide active">
+        <div class="content-body" style="text-align: center;">
+            <h1>Cyber Chakshu SIEM Platform</h1>
+            <p style="font-size: 1.8rem; color: var(--text-dim);">Integrated Security Information & Event Management</p>
+            <div style="margin-top: 50px;">
+                <p style="font-size: 1.2rem; letter-spacing: 2px; color: var(--secondary);">ISEA PROJECT (IGDTUW)</p>
+                <div style="height: 2px; width: 100px; background: var(--accent); margin: 20px auto;"></div>
+                <p>Advanced Real-time Log Discovery & Dynamic Parsing Engine</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h2>The Core Problem</h2>
+        <div class="content-body">
+            <ul>
+                <li><strong>Static Schema Dependency:</strong> Traditional SIEMs fail when log formats shift, requiring manual regex rewrites.</li>
+                <li><strong>Log Blind Spots:</strong> Fragmented visibility across heterogeneous environments (Web, DB, Cloud, and System).</li>
+                <li><strong>Infrastructure Friction:</strong> High resource requirements for basic auditing and research tasks.</li>
+                <li><strong>Parsing Complexity:</strong> Manual classification is time-consuming and prone to human error.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h2>System Solution</h2>
+        <div class="content-body">
+            <div class="grid">
+                <div class="highlight-box">
+                    <h3>Unified Intelligence</h3>
+                    <p>A centralized platform for correlation across 50+ diverse log formats.</p>
+                </div>
+                <div class="highlight-box">
+                    <h3>Dual-Mode Deployment</h3>
+                    <p>Optimized for both high-availability Cloud and privacy-focused Local Desktop environments.</p>
+                </div>
+            </div>
+            <ul>
+                <li><strong>Centralized Dashboard:</strong> Streamlined React UI for immediate threat visibility.</li>
+                <li><strong>Custom Parser Suite:</strong> Native handling for complex infrastructure logs.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h2>Proprietary Dynamic Detection</h2>
+        <div class="content-body">
+            <div class="accent-box">
+                <h3 style="color: var(--accent); margin-top: 0;">Automated Discovery Engine</h3>
+                <p style="font-size: 1.4rem;">Cyber Chakshu is the only platform providing <strong>Dynamic Log Detection and Field Extraction</strong> without pre-defined templates.</p>
+            </div>
+            <div class="grid">
+                <div>
+                    <h3>Autonomous Labeling</h3>
+                    <p>Identifies IPs, Timestamps, and Status Codes in completely unknown log structures.</p>
+                </div>
+                <div>
+                    <h3>Zero-Touch Onboarding</h3>
+                    <p>Eliminates the "Configuration Phase"—simply ingest logs and begin analysis immediately.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h2>Master-Slave Distribution</h2>
+        <div class="content-body">
+            <p>A specialized architecture designed to operate within the strict CPU limits of serverless environments:</p>
+            
+            <div class="grid">
+                <div class="highlight-box">
+                    <h3>Master Orchestrator</h3>
+                    <p>Partitions large log files into 200KB manageable segments for parallel processing.</p>
+                </div>
+                <div class="highlight-box">
+                    <h3>Slave Computation</h3>
+                    <p>Ten concurrent workers process segments, followed by a final <strong>compilation</strong> of the data stream.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h2>Multi-Layer Ingestion</h2>
+        <div class="content-body">
+            <div class="grid">
+                <div>
+                    <h3>Infrastucture & Web</h3>
+                    <ul>
+                        <li>Apache, Nginx, IIS</li>
+                        <li>Django, FastAPI, Node.js</li>
+                        <li>MySQL, MongoDB, Oracle</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Security & Cloud</h3>
+                    <ul>
+                        <li>AWS CloudTrail / VPC Logs</li>
+                        <li>Azure NSG / Activity Logs</li>
+                        <li>Iptables, FortiGate, ASA</li>
+                    </ul>
+                </div>
+            </div>
+            <p><strong>Advanced Feature:</strong> Seamless multi-line event handling for Windows EVTX and Java Stack Traces.</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h2>Cloud vs. Desktop GUI</h2>
+        <div class="content-body">
+            <div class="grid">
+                <div class="highlight-box">
+                    <h3>Cloud (siem-tool)</h3>
+                    <p>Deployed via Cloudflare Workers and Hono for global edge availability with a React 19 frontend.</p>
+                </div>
+                <div class="highlight-box">
+                    <h3>Desktop (siem-gui)</h3>
+                    <p>Python-based PySide6 application with an embedded WebView for secure, offline log analysis.</p>
+                </div>
+            </div>
+            <p>Includes built-in <strong>EVTX Tutorials</strong> and <strong>Severity-based Filtering</strong> for rapid incident triaging.</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h2>Distributed Learning Loop</h2>
+        <div class="content-body">
+            <div class="grid">
+                <div>
+                    <h3>Distributed Learning</h3>
+                    <p>Implementing a feedback loop where user-driven log categorization actively trains our internal models.</p>
+                </div>
+                <div>
+                    <h3>LLM Feedback Integration</h3>
+                    <p>Using manual classifications to refine LLM accuracy for automated root cause analysis.</p>
+                </div>
+            </div>
+            <ul>
+                <li><strong>Manual Tagging UI:</strong> Enhanced classification tools for security researchers.</li>
+                <li><strong>Accuracy Refinement:</strong> Continuous improvement of the dynamic extraction engine via user feedback.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="content-body" style="text-align: center;">
+            <h1>Q&A</h1>
+            <p style="font-size: 1.5rem; color: var(--secondary);">Cyber Chakshu SIEM Platform</p>
+            <div style="margin-top: 40px; color: var(--text-dim);">
+                <p>ISEA PROJECT | IGDTUW</p>
+                <p>Specialized Research in Automated Security Auditing</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="nav-bar">
+    <div class="nav-info">ISEA Project | IGDTUW</div>
+    <div class="btn-group">
+        <button id="prevBtn" onclick="move(-1)" disabled>← Previous</button>
+        <button id="nextBtn" onclick="move(1)">Next →</button>
+    </div>
+    <div class="nav-info" id="slideNum">Slide 1 of 9</div>
+</div>
+
+<script>
+    let current = 0;
+    const slides = document.querySelectorAll('.slide');
+    const prev = document.getElementById('prevBtn');
+    const next = document.getElementById('nextBtn');
+    const slideNum = document.getElementById('slideNum');
+
+    function move(dir) {
+        slides[current].classList.remove('active');
+        current += dir;
+        slides[current].classList.add('active');
+        
+        prev.disabled = current === 0;
+        next.disabled = current === slides.length - 1;
+        
+        slideNum.innerText = `Slide ${current + 1} of ${slides.length}`;
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === "ArrowRight" && current < slides.length - 1) move(1);
+        if (e.key === "ArrowLeft" && current > 0) move(-1);
+    });
+</script>
+</body>
+</html>

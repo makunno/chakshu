@@ -1,0 +1,7 @@
+Full Timeline for Partition 0
+Image: 2020JimmyWilson.E01
+Offset: 34 bytes
+================================================================================
+
+Error: Cannot determine file system type
+

@@ -1,0 +1,507 @@
+{
+  "timestamp": "2026-02-28T22:24:55.662026",
+  "output_dir": "Output00000",
+  "file_analysis": {
+    "files_by_priority": {
+      "critical": [
+        {
+          "path": "Output00000/registry_partition_0.txt",
+          "name": "registry_partition_0.txt",
+          "size_bytes": 1084,
+          "size_mb": 0.0,
+          "priority": "critical"
+        },
+        {
+          "path": "Output00000/shadow_copies_partition_0.txt",
+          "name": "shadow_copies_partition_0.txt",
+          "size_bytes": 1179,
+          "size_mb": 0.0,
+          "priority": "critical"
+        },
+        {
+          "path": "Output00000/usn_journal_partition_0.txt",
+          "name": "usn_journal_partition_0.txt",
+          "size_bytes": 50293,
+          "size_mb": 0.05,
+          "priority": "critical"
+        }
+      ],
+      "important": [
+        {
+          "path": "Output00000/timeline_partition_0.txt",
+          "name": "timeline_partition_0.txt",
+          "size_bytes": 918782,
+          "size_mb": 0.88,
+          "priority": "important"
+        },
+        {
+          "path": "Output00000/timestomp_indicators_partition_0.txt",
+          "name": "timestomp_indicators_partition_0.txt",
+          "size_bytes": 918844,
+          "size_mb": 0.88,
+          "priority": "important"
+        },
+        {
+          "path": "Output00000/hidden_structures_partition_0.txt",
+          "name": "hidden_structures_partition_0.txt",
+          "size_bytes": 588,
+          "size_mb": 0.0,
+          "priority": "important"
+        },
+        {
+          "path": "Output00000/mft_partition_0.txt",
+          "name": "mft_partition_0.txt",
+          "size_bytes": 681,
+          "size_mb": 0.0,
+          "priority": "important"
+        },
+        {
+          "path": "Output00000/timestomp_report.txt",
+          "name": "timestomp_report.txt",
+          "size_bytes": 3321,
+          "size_mb": 0.0,
+          "priority": "important"
+        }
+      ],
+      "standard": [
+        {
+          "path": "Output00000/logs_partition_0.txt",
+          "name": "logs_partition_0.txt",
+          "size_bytes": 7163,
+          "size_mb": 0.01,
+          "priority": "standard"
+        }
+      ]
+    },
+    "files_analyzed": {
+      "critical": [
+        {
+          "name": "registry_partition_0.txt",
+          "path": "Output00000/registry_partition_0.txt",
+          "size": 1084,
+          "line_count": 19,
+          "key_findings": [
+            {
+              "type": "hive_found",
+              "description": "SYSTEM: 1 references",
+              "severity": "info"
+            },
+            {
+              "type": "hive_found",
+              "description": "NTUSER: 6 references",
+              "severity": "info"
+            },
+            {
+              "type": "hive_found",
+              "description": "USRCLASS: 6 references",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "Registry Hives for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/2020JimmyWilson.E01",
+            "Offset: 65664 bytes",
+            "Filesystem: auto",
+            "================================================================================",
+            "",
+            "Registry Hives Found:",
+            "++ r/r 3960-128-4:\tNTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf",
+            "++++++ r/r 3998-128-3:\tUsrClass.dat",
+            "++++++ r/r 3999-128-4:\tUsrClass.dat.LOG1",
+            "++++++ r/r 4000-128-1:\tUsrClass.dat.LOG2",
+            "++++++ r/r 4001-128-4:\tUsrClass.dat{30f0885a-85ed-11e3-b557-001641e7bb6b}.TM.blf",
+            "++++++ r/r 4002-128-4:\tUsrClass.dat{30f0885a-85ed-11e3-b557-001641e7bb6b}.TMContainer00000000000000000001.regtrans-ms",
+            "++++++ r/r 4003-128-4:\tUsrClass.dat{30f0885a-85ed-11e3-b557-001641e7bb6b}.TMContainer00000000000000000002.regtrans-ms",
+            "++ r/r 90-128-3:\tNTUSER.DAT",
+            "++ r/r 3952-128-4:\tntuser.dat.LOG1",
+            "++ r/r 3958-128-1:\tntuser.dat.LOG2",
+            "++ r/r 3979-128-4:\tNTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms",
+            "++ r/r 3975-128-4:\tNTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms"
+          ]
+        },
+        {
+          "name": "shadow_copies_partition_0.txt",
+          "path": "Output00000/shadow_copies_partition_0.txt",
+          "size": 1179,
+          "line_count": 23,
+          "key_findings": [
+            {
+              "type": "extend_found",
+              "description": "$Extend metadata folder found",
+              "severity": "info"
+            },
+            {
+              "type": "vss_indicator",
+              "description": "VSS-related entry: vss",
+              "severity": "info"
+            },
+            {
+              "type": "vss_indicator",
+              "description": "VSS-related entry: snapshot",
+              "severity": "info"
+            },
+            {
+              "type": "vss_indicator",
+              "description": "VSS-related entry: shadow",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "Shadow Copy / VSS Indicators for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/2020JimmyWilson.E01",
+            "================================================================================",
+            "",
+            "Potential Shadow Copy / VSS Related Files:",
+            "++++++++++ r/r 741-128-1:\tbg-zbtn-shadow-mid[1].png",
+            "++++++++++ r/r 887-128-4:\tfooter_shadow[1].png",
+            "++++++++++ r/r 742-128-1:\tbg-zbtn-shadow-right[1].png",
+            "++++++++++ r/r 647-128-1:\tbg-zbtn-shadow-right.png.pagespeed.ce.bs0u1wHZrn[1].png",
+            "++++++++++ r/r 890-128-4:\tshadow_body770[1].png",
+            "++++++++++ r/r 883-128-4:\tshadow_narrowbox[1].png",
+            "++++++++++ r/r 644-128-1:\tbg-zbtn-shadow-left.png.pagespeed.ce.x8DkJtUdak[1].png",
+            "++++++++++ r/r 646-128-1:\txbg-zbtn-shadow-mid.png.pagespeed.ic.Dx6BLEpjlx[1].png",
+            "++++++++++ r/r 691-128-1:\tnav-shadow-lt.png.pagespeed.ce.hg3j3fJvno[1].png",
+            "++++++++++ r/r 693-128-1:\tnav-shadow-rt.png.pagespeed.ce.OEwQNLnNH_[1].png",
+            "++++++++++ r/r 740-128-1:\tbg-zbtn-shadow-left[1].png",
+            "++++++++++ r/r 870-128-4:\tshadow_sidebox[1].png",
+            "d/d 11-144-4:\t$Extend",
+            "r/r 3-128-3:\t$Volume",
+            "+++++ r/r 4996-128-3:\tsnapshot.etl"
+          ]
+        },
+        {
+          "name": "usn_journal_partition_0.txt",
+          "path": "Output00000/usn_journal_partition_0.txt",
+          "size": 50293,
+          "line_count": 1080,
+          "key_findings": [
+            {
+              "type": "missing",
+              "description": "USN journal not found",
+              "severity": "high"
+            },
+            {
+              "type": "entry_count",
+              "description": "USN journal contains 1077 entries",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "USN Journal Files for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/2020JimmyWilson.E01",
+            "Offset: 65664 bytes",
+            "Filesystem: auto",
+            "================================================================================",
+            "",
+            "No USN journal files found.",
+            "",
+            "Full file list for reference:",
+            "d/d 35-144-1:\tDocuments and Settings",
+            "d/d 4213-144-8:\tUSERS",
+            "+ d/d 4376-144-1:\tBillyBob",
+            "+ d/d 4374-144-1:\tFred Flintstone",
+            "+ d/d 4375-144-1:\tJames Russell",
+            "+ d/d 36-144-6:\tJimmy Wilson",
+            "++ r/r 3960-128-4:\tNTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf",
+            "++ d/d 37-144-1:\tAppData",
+            "+++ d/d 38-144-5:\tLocal",
+            "++++ d/d 86-144-1:\tAdobe",
+            "+++++ d/d 87-144-1:\tAcrobat"
+          ]
+        }
+      ],
+      "important": [
+        {
+          "name": "timeline_partition_0.txt",
+          "path": "Output00000/timeline_partition_0.txt",
+          "size": 918782,
+          "line_count": 5806,
+          "key_findings": [
+            {
+              "type": "zero_timestamp",
+              "description": "Zero timestamps found",
+              "severity": "medium"
+            },
+            {
+              "type": "total_entries",
+              "description": "Timeline contains 5806 entries",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "Full Timeline for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/2020JimmyWilson.E01",
+            "Offset: 65664 bytes",
+            "================================================================================",
+            "",
+            "d/d 35-144-1:\tDocuments and Settings\t2009-07-14 10:38:56 (IST)\t2009-07-14 10:38:56 (IST)\t2015-05-26 18:15:14 (IST)\t2009-07-14 10:38:56 (IST)\t48\t0\t0",
+            "d/d 4213-144-8:\tUSERS\t2015-05-26 18:36:52 (IST)\t2015-05-26 18:36:52 (IST)\t2015-05-26 18:36:52 (IST)\t2015-05-26 18:16:28 (IST)\t56\t0\t0",
+            "+ d/d 4376-144-1:\tBillyBob\t2015-05-26 18:36:36 (IST)\t2015-05-26 18:36:36 (IST)\t2015-05-26 18:36:43 (IST)\t2015-05-26 18:36:36 (IST)\t48\t0\t0",
+            "+ d/d 4374-144-1:\tFred Flintstone\t2015-05-26 18:36:10 (IST)\t2015-05-26 18:36:10 (IST)\t2015-05-26 18:36:18 (IST)\t2015-05-26 18:36:10 (IST)\t48\t0\t0",
+            "+ d/d 4375-144-1:\tJames Russell\t2015-05-26 18:36:21 (IST)\t2015-05-26 18:36:21 (IST)\t2015-05-26 18:36:28 (IST)\t2015-05-26 18:36:21 (IST)\t48\t0\t0",
+            "+ d/d 36-144-6:\tJimmy Wilson\t2015-05-26 18:16:17 (IST)\t2015-05-26 18:16:17 (IST)\t2015-05-26 18:16:37 (IST)\t2014-01-25 23:57:38 (IST)\t256\t0\t0",
+            "++ r/r 3960-128-4:\tNTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf\t2015-05-26 18:16:16 (IST)\t2015-05-26 18:16:16 (IST)\t2015-05-26 18:16:16 (IST)\t2015-05-26 18:16:16 (IST)\t65536\t0\t0",
+            "++ d/d 37-144-1:\tAppData\t2014-01-25 23:57:39 (IST)\t2014-01-25 23:57:39 (IST)\t2015-05-26 18:16:16 (IST)\t2014-01-25 23:57:38 (IST)\t344\t0\t0",
+            "+++ d/d 38-144-5:\tLocal\t2015-05-26 18:16:18 (IST)\t2015-05-26 18:16:18 (IST)\t2015-05-26 18:16:18 (IST)\t2014-01-25 23:57:38 (IST)\t56\t0\t0",
+            "++++ d/d 86-144-1:\tAdobe\t2015-05-26 18:15:56 (IST)\t2015-05-26 18:15:56 (IST)\t2015-05-26 18:15:56 (IST)\t2014-02-10 20:27:11 (IST)\t240\t0\t0",
+            "+++++ d/d 87-144-1:\tAcrobat\t2014-02-10 20:27:11 (IST)\t2014-02-10 20:27:11 (IST)\t2015-05-26 18:15:56 (IST)\t2014-02-10 20:27:11 (IST)\t144\t0\t0",
+            "++++++ d/d 88-144-5:\t11.0\t2015-05-26 18:15:57 (IST)\t2015-05-26 18:15:57 (IST)\t2015-05-26 18:15:57 (IST)\t2014-02-10 20:27:11 (IST)\t56\t0\t0",
+            "+++++++ r/r 482-128-4:\tAdobeCMapFnt11.lst\t2015-05-26 18:15:55 (IST)\t2015-05-26 18:15:55 (IST)\t2015-05-26 18:15:55 (IST)\t2015-05-26 18:15:55 (IST)\t1011\t0\t0",
+            "+++++++ r/r 479-128-4:\tAdobeSysFnt11.lst\t2015-05-26 18:15:55 (IST)\t2015-05-26 18:15:55 (IST)\t2015-05-26 18:15:55 (IST)\t2015-05-26 18:15:55 (IST)\t82455\t0\t0",
+            "+++++++ d/d 89-144-1:\tCache\t2015-05-26 18:15:54 (IST)\t2015-05-26 18:15:54 (IST)\t2015-05-26 18:15:54 (IST)\t2014-02-10 20:50:47 (IST)\t272\t0\t0"
+          ]
+        },
+        {
+          "name": "timestomp_indicators_partition_0.txt",
+          "path": "Output00000/timestomp_indicators_partition_0.txt",
+          "size": 918844,
+          "line_count": 5808,
+          "key_findings": [
+            {
+              "type": "zero_timestamp",
+              "description": "Zero timestamps found",
+              "severity": "medium"
+            },
+            {
+              "type": "total_entries",
+              "description": "Timeline contains 5808 entries",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "Timestamp Analysis for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/2020JimmyWilson.E01",
+            "================================================================================",
+            "",
+            "Full file listing with timestamps:",
+            "Format: mode uid gid size date time name",
+            "",
+            "d/d 35-144-1:\tDocuments and Settings\t2009-07-14 10:38:56 (IST)\t2009-07-14 10:38:56 (IST)\t2015-05-26 18:15:14 (IST)\t2009-07-14 10:38:56 (IST)\t48\t0\t0",
+            "d/d 4213-144-8:\tUSERS\t2015-05-26 18:36:52 (IST)\t2015-05-26 18:36:52 (IST)\t2015-05-26 18:36:52 (IST)\t2015-05-26 18:16:28 (IST)\t56\t0\t0",
+            "+ d/d 4376-144-1:\tBillyBob\t2015-05-26 18:36:36 (IST)\t2015-05-26 18:36:36 (IST)\t2015-05-26 18:36:43 (IST)\t2015-05-26 18:36:36 (IST)\t48\t0\t0",
+            "+ d/d 4374-144-1:\tFred Flintstone\t2015-05-26 18:36:10 (IST)\t2015-05-26 18:36:10 (IST)\t2015-05-26 18:36:18 (IST)\t2015-05-26 18:36:10 (IST)\t48\t0\t0",
+            "+ d/d 4375-144-1:\tJames Russell\t2015-05-26 18:36:21 (IST)\t2015-05-26 18:36:21 (IST)\t2015-05-26 18:36:28 (IST)\t2015-05-26 18:36:21 (IST)\t48\t0\t0",
+            "+ d/d 36-144-6:\tJimmy Wilson\t2015-05-26 18:16:17 (IST)\t2015-05-26 18:16:17 (IST)\t2015-05-26 18:16:37 (IST)\t2014-01-25 23:57:38 (IST)\t256\t0\t0",
+            "++ r/r 3960-128-4:\tNTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf\t2015-05-26 18:16:16 (IST)\t2015-05-26 18:16:16 (IST)\t2015-05-26 18:16:16 (IST)\t2015-05-26 18:16:16 (IST)\t65536\t0\t0",
+            "++ d/d 37-144-1:\tAppData\t2014-01-25 23:57:39 (IST)\t2014-01-25 23:57:39 (IST)\t2015-05-26 18:16:16 (IST)\t2014-01-25 23:57:38 (IST)\t344\t0\t0",
+            "+++ d/d 38-144-5:\tLocal\t2015-05-26 18:16:18 (IST)\t2015-05-26 18:16:18 (IST)\t2015-05-26 18:16:18 (IST)\t2014-01-25 23:57:38 (IST)\t56\t0\t0",
+            "++++ d/d 86-144-1:\tAdobe\t2015-05-26 18:15:56 (IST)\t2015-05-26 18:15:56 (IST)\t2015-05-26 18:15:56 (IST)\t2014-02-10 20:27:11 (IST)\t240\t0\t0",
+            "+++++ d/d 87-144-1:\tAcrobat\t2014-02-10 20:27:11 (IST)\t2014-02-10 20:27:11 (IST)\t2015-05-26 18:15:56 (IST)\t2014-02-10 20:27:11 (IST)\t144\t0\t0",
+            "++++++ d/d 88-144-5:\t11.0\t2015-05-26 18:15:57 (IST)\t2015-05-26 18:15:57 (IST)\t2015-05-26 18:15:57 (IST)\t2014-02-10 20:27:11 (IST)\t56\t0\t0",
+            "+++++++ r/r 482-128-4:\tAdobeCMapFnt11.lst\t2015-05-26 18:15:55 (IST)\t2015-05-26 18:15:55 (IST)\t2015-05-26 18:15:55 (IST)\t2015-05-26 18:15:55 (IST)\t1011\t0\t0"
+          ]
+        },
+        {
+          "name": "hidden_structures_partition_0.txt",
+          "path": "Output00000/hidden_structures_partition_0.txt",
+          "size": 588,
+          "line_count": 15,
+          "key_findings": [],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "Hidden Structures / ADS for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/2020JimmyWilson.E01",
+            "================================================================================",
+            "",
+            "Potential Alternate Data Streams / Hidden Data:",
+            "r/r 8-128-1:\t$BadClus:$Bad",
+            "r/r 25-144-2:\t$Extend/$ObjId:$O",
+            "r/r 24-144-3:\t$Extend/$Quota:$O",
+            "r/r 24-144-2:\t$Extend/$Quota:$Q",
+            "r/r 26-144-2:\t$Extend/$Reparse:$R",
+            "r/r 28-128-2:\t$Extend/$RmMetadata/$Repair:$Config",
+            "r/r 31-128-4:\t$Extend/$RmMetadata/$TxfLog/$Tops:$T",
+            "r/r 9-128-8:\t$Secure:$SDS",
+            "r/r 9-144-11:\t$Secure:$SDH",
+            "r/r 9-144-14:\t$Secure:$SII"
+          ]
+        },
+        {
+          "name": "mft_partition_0.txt",
+          "path": "Output00000/mft_partition_0.txt",
+          "size": 681,
+          "line_count": 26,
+          "key_findings": [
+            {
+              "type": "orphan_files",
+              "description": "Orphaned files found (deleted but recoverable)",
+              "severity": "medium"
+            },
+            {
+              "type": "system_files",
+              "description": "System files found: $MFT, $MFTMirr, $LogFile, $Volume, $AttrDef, $Bitmap, $Boot, $BadClus, $Secure, $UpCase",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "MFT Listing for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/2020JimmyWilson.E01",
+            "Offset: 65664 bytes",
+            "Filesystem: auto",
+            "================================================================================",
+            "",
+            "d/d 35-144-1:\tDocuments and Settings",
+            "d/d 4213-144-8:\tUSERS",
+            "r/r 4-128-4:\t$AttrDef",
+            "r/r 8-128-2:\t$BadClus",
+            "r/r 8-128-1:\t$BadClus:$Bad",
+            "r/r 6-128-4:\t$Bitmap",
+            "r/r 7-128-1:\t$Boot",
+            "d/d 11-144-4:\t$Extend",
+            "r/r 2-128-1:\t$LogFile",
+            "r/r 0-128-1:\t$MFT",
+            "r/r 1-128-1:\t$MFTMirr",
+            "d/d 4378-144-5:\t$RECYCLE.BIN",
+            "r/r 9-128-8:\t$Secure:$SDS",
+            "r/r 9-144-11:\t$Secure:$SDH"
+          ]
+        },
+        {
+          "name": "timestomp_report.txt",
+          "path": "Output00000/timestomp_report.txt",
+          "size": 3321,
+          "line_count": 68,
+          "key_findings": [
+            {
+              "type": "total_entries",
+              "description": "Timeline contains 68 entries",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "==========================================================================================",
+            "           TIMESTOMPING DETECTION FORENSIC REPORT",
+            "           Generated by Cyber Chakshu Hardcoded Detection Engine",
+            "==========================================================================================",
+            "",
+            "Analysis Date:      2026-02-28T22:24:55.655046",
+            "Output Directory:  Output00000",
+            "Total Files Analyzed: 4606",
+            "",
+            "------------------------------------------------------------------------------------------",
+            "                              EXECUTIVE SUMMARY",
+            "------------------------------------------------------------------------------------------",
+            "",
+            "  [CRITICAL] Critical Findings:  0",
+            "  [HIGH]     High Findings:       2",
+            "  [MEDIUM]   Medium Findings:     0",
+            "  Total Suspicious Files:        0",
+            "  Total Indicators:             2",
+            "",
+            "=========================================================================================="
+          ]
+        }
+      ],
+      "standard": [
+        {
+          "name": "logs_partition_0.txt",
+          "path": "Output00000/logs_partition_0.txt",
+          "size": 7163,
+          "line_count": 134,
+          "key_findings": [
+            {
+              "type": "event_logs",
+              "description": "67 Windows event log files found",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "Log Files for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/2020JimmyWilson.E01",
+            "Offset: 65664 bytes",
+            "Filesystem: auto",
+            "================================================================================",
+            "",
+            "Log Files Found:",
+            "++++++ r/r 3999-128-4:\tUsrClass.dat.LOG1",
+            "++++++ r/r 4000-128-1:\tUsrClass.dat.LOG2",
+            "+++++++ r/r 1784-128-3:\tV01.log",
+            "+++++++ r/r 4150-128-3:\tV010000E.log",
+            "+++++++ r/r 2961-128-3:\tV0100016.log",
+            "++++++ r/r 3712-128-1:\tWindowsUpdate.log",
+            "+++++++++++ r/r 3752-128-3:\tedb.log",
+            "++++++++++++ r/r 702-128-3:\tedb00001.log",
+            "+++++++++++ r/r 3780-128-3:\tedb.log",
+            "+++++++++++ r/r 3778-128-3:\tedb00001.log",
+            "++++++++++ r/r 3734-128-3:\tedb.log",
+            "+++++++++++ r/r 3743-128-3:\tedb.log",
+            "++++++++ r/r 3782-128-3:\tedb00001.log"
+          ]
+        }
+      ]
+    },
+    "total_files": 9
+  },
+  "evidence": {
+    "timestomping": {
+      "future_dates": [
+        "USN journal missing"
+      ],
+      "zero_timestamps": [],
+      "identical_timestamps": [],
+      "total_checked": 68
+    },
+    "shadow_copies": {
+      "extend_exists": true,
+      "system_volume_info": false,
+      "indicators": []
+    },
+    "alternate_data_streams": {
+      "total_found": 10,
+      "zone_identifier": 0,
+      "samples": [
+        "$BadClus:$Bad",
+        "$Extend/$ObjId:$O",
+        "$Extend/$Quota:$O",
+        "$Extend/$Quota:$Q",
+        "$Extend/$Reparse:$R",
+        "$Extend/$RmMetadata/$Repair:$Config",
+        "$Extend/$RmMetadata/$TxfLog/$Tops:$T",
+        "$Secure:$SDS",
+        "$Secure:$SDH",
+        "$Secure:$SII"
+      ]
+    },
+    "file_deletion": {
+      "orphans": 1,
+      "deleted_entries": 0,
+      "recycle_bin": false
+    },
+    "registry": {
+      "hives_found": [
+        "NTUSER"
+      ],
+      "tool_indicators": []
+    },
+    "logs": {
+      "event_logs": 0,
+      "log_files": []
+    }
+  },
+  "context": {
+    "system_prompt": "You are an expert forensic analyst specializing in digital forensics and anti-forensic technique detection. Your role is to analyze extracted disk image artifacts and identify evidence of anti-forensic activities.\n\nKNOWLEDGE AREAS:\n- Windows NTFS filesystem forensics\n- Master File Table (MFT) analysis\n- USN Journal interpretation ($UsnJrnl:$J)\n- $LogFile transaction analysis\n- Registry forensics (SAM, SECURITY, SOFTWARE, SYSTEM hives)\n- Volume Shadow Copy (VSS) analysis\n- Alternate Data Streams (ADS)\n- Timestomping techniques (SI vs FN mismatch detection)\n- Log manipulation and clearing\n- Common anti-forensic tools (Timestomp, CCleaner, BleachBit, etc.)\n\nIMPORTANT - LAYERED CORRELATION METHODOLOGY:\nThe analysis uses a 4-layer weighted correlation model to detect timestomping:\n- Layer 1 (30%): MFT $SI vs $FN timestamp comparison - compares Standard Information vs File Name timestamps\n- Layer 2 (30%): USN Journal - verifies file creation against FILE_CREATE events\n- Layer 3 (20%): $LogFile - checks transaction history for SetFileInformation operations\n- Layer 4 (20%): External artifacts - future dates, zero timestamps, volume correlation\n\nUse the layered correlation findings in your analysis to provide accurate assessments.\n\nRESPONSE REQUIREMENTS:\n1. Prioritize findings from the layered correlation analysis\n2. Provide reasoning for each finding\n3. Distinguish between normal Windows behavior and suspicious activity\n4. Correlate findings across multiple artifacts\n5. Assign severity levels with justification\n6. Suggest specific follow-up investigations",
+    "evidence_summary": "\nEVIDENCE SUMMARY\n================\n\nLAYERED TIMESTOMP CORRELATION (PRIMARY ANALYSIS):\nLayered correlation results not available.\n\nTIMESTOMPING ANALYSIS:\n- Files with future dates: 1\n- Zero timestamps: 0\n- Total timeline entries analyzed: 68\n- Sample future dates: ['USN journal missing']\n\nSHADOW COPY STATUS:\n- $Extend exists: True\n- System Volume Information: False\n- Other indicators: []\n\nALTERNATE DATA STREAMS:\n- Total ADS found: 10\n- Zone.Identifier (downloaded): 0\n- Samples: ['$BadClus:$Bad', '$Extend/$ObjId:$O', '$Extend/$Quota:$O', '$Extend/$Quota:$Q', '$Extend/$Reparse:$R']\n\nFILE DELETION:\n- Orphaned files: 1\n- Deleted MFT entries: 0\n- Recycle Bin present: False\n\nREGISTRY:\n- Hives found: ['NTUSER']\n- Tool indicators: []\n\nLOG FILES:\n- Event logs (.evtx): 0\n",
+    "layered_summary": "Layered correlation results not available.\n",
+    "analysis_instructions": "\nTASK:\nAnalyze the extracted forensic artifacts and produce a structured analysis report.\n\nFOR EACH FINDING, PROVIDE:\n1. Technique detected (e.g., timestomping, shadow copy deletion)\n2. Severity (LOW/MEDIUM/HIGH/CRITICAL)\n3. Evidence: Specific file entries or data that supports the finding\n4. Explanation: WHY this indicates anti-forensic activity vs normal behavior\n5. Recommendation: Specific follow-up investigation steps\n\nCORRELATE ACROSS ARTIFACTS:\n- Timestomping: Cross-reference timeline with USN journal timestamps\n- Deletion: Check MFT deleted entries + Recycle Bin + orphan files\n- Shadow Copies: Verify $Extend + System Volume Information status\n- ADS: Note which files have streams and their types\n\nFINAL OUTPUT:\nProvide a JSON object with your findings (schema below).\n",
+    "json_output_schema": "\nJSON Output Schema:\n{\n  \"findings\": [\n    {\n      \"technique\": \"timestomping|shadow_deletion|ads|deletion|registry_tampering|log_clearing|other\",\n      \"severity\": \"LOW|MEDIUM|HIGH|CRITICAL\",\n      \"evidence\": \"Specific data supporting this finding\",\n      \"explanation\": \"Detailed reasoning for why this is/isn't suspicious\",\n      \"recommendation\": \"Specific follow-up investigation\",\n      \"file_source\": \"Which artifact file contains this evidence\"\n    }\n  ],\n  \"summary\": \"Overall assessment in 2-3 sentences\",\n  \"risk_level\": \"LOW|MEDIUM|HIGH|CRITICAL\",\n  \"recommendations\": [\"List of general recommendations\"]\n}\n"
+  },
+  "statistics": {
+    "total_files_processed": 9,
+    "total_size_bytes": 1901935,
+    "total_size_mb": 1.81,
+    "files_by_priority": {
+      "critical": 3,
+      "important": 5,
+      "standard": 1
+    }
+  },
+  "layered_correlation": {}
+}

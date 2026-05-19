@@ -1,0 +1,116 @@
+{
+  "log_type": "firewall",
+  "category": "firewall",
+  "description": "Firewall logs (iptables, UFW, etc.)",
+  "version": "1.0.0",
+  "trained_at": "2026-02-03T12:26:19.710066",
+  "feature_names": [
+    "accepted_packets",
+    "drop_rate",
+    "dropped_packets",
+    "port_scan_indicator",
+    "unique_destination_ips",
+    "unique_ports",
+    "unique_source_ips"
+  ],
+  "features": [
+    "drop_rate",
+    "unique_source_ips",
+    "unique_dest_ips",
+    "unique_ports",
+    "protocol_distribution",
+    "packets_per_minute",
+    "bytes_per_minute",
+    "blocked_vs_allowed",
+    "port_scan_indicators"
+  ],
+  "attack_patterns": [
+    "port_scan",
+    "ddos",
+    "reconnaissance",
+    "data_exfiltration"
+  ],
+  "feature_statistics": {
+    "means": [
+      154.85,
+      0.3330668459051358,
+      11294.0,
+      0.008333333333333333,
+      29.725,
+      44.36666666666667,
+      44.55833333333333
+    ],
+    "stds": [
+      758.7808390618094,
+      0.47203011289723024,
+      122845.76709757457,
+      0.09190593428863097,
+      19.957603961262215,
+      100.25974303797929,
+      32.82573554941289
+    ],
+    "mins": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      5.0,
+      1.0
+    ],
+    "maxs": [
+      8000.0,
+      1.0,
+      1351383.0,
+      1.0,
+      50.0,
+      1025.0,
+      200.0
+    ]
+  },
+  "model": {
+    "type": "isolation_forest",
+    "n_estimators": 100,
+    "contamination": 0.2,
+    "score_range": [
+      -0.4018799623833215,
+      0.09266484540428271
+    ],
+    "score_mean": 0.01931102590092718,
+    "score_std": 0.0763284178720867,
+    "anomaly_threshold": 0.0,
+    "training_samples": 120,
+    "accuracy": 0.85,
+    "score_distribution": {
+      "min": -0.4018799623833215,
+      "max": 0.09266484540428271,
+      "mean": 0.01931102590092718,
+      "percentile_5": -0.0718405288592387,
+      "percentile_95": 0.0914404804547143
+    }
+  },
+  "attack_labels": {
+    "normal": 0,
+    "bruteforce": 1,
+    "password_spray": 2,
+    "sql_injection": 3,
+    "xss_attack": 4,
+    "path_traversal": 5,
+    "command_injection": 6,
+    "privilege_escalation": 7,
+    "data_exfiltration": 8,
+    "port_scan": 9,
+    "reconnaissance": 10,
+    "malware_activity": 11,
+    "c2_communication": 12,
+    "dos": 13,
+    "ransomware": 14,
+    "log4shell": 15,
+    "insider_threat": 16,
+    "account_takeover": 17,
+    "lateral_movement": 18,
+    "cryptomining": 19,
+    "webshell": 20,
+    "anomaly": 21
+  }
+}

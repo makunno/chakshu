@@ -1,0 +1,5 @@
+Shadow Copy / VSS Indicators for Partition 0
+Image: 2020JimmyWilson.E01
+================================================================================
+
+No shadow copy indicators found.

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: cyber-chakshu-backend
+    runtime: python
+    rootDir: siem-tool/backend-python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: OPENROUTER_API_KEY
+        sync: false

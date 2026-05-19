@@ -1,0 +1,16 @@
+PySide6>=6.0.0
+PyWebView>=4.0
+Flask>=3.0.0
+Flask-CORS>=4.0.0
+pandas>=2.2.0
+numpy>=1.26.3
+scikit-learn>=1.4.0
+matplotlib>=3.8.2
+python-dateutil>=2.8.2
+pytz>=2024.1
+chardet>=5.2.0
+colorama>=0.4.6
+tqdm>=4.66.1
+PyYAML>=6.0.1
+jsonschema>=4.20.0
+joblib>=1.3.0

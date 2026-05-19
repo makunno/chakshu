@@ -1,0 +1,119 @@
+{
+  "log_type": "nginx",
+  "category": "webserver",
+  "description": "Nginx access logs",
+  "version": "1.0.0",
+  "trained_at": "2026-02-03T12:26:15.346914",
+  "feature_names": [
+    "avg_response_time",
+    "error_rate",
+    "status_5xx_ratio",
+    "total_requests",
+    "unique_ips",
+    "unique_referers",
+    "unique_urls",
+    "unique_user_agents"
+  ],
+  "features": [
+    "status_5xx_ratio",
+    "avg_response_time",
+    "unique_urls",
+    "unique_ips",
+    "requests_per_minute",
+    "bytes_per_request",
+    "error_rate"
+  ],
+  "attack_patterns": [
+    "sql_injection",
+    "xss",
+    "path_traversal",
+    "bruteforce"
+  ],
+  "feature_statistics": {
+    "means": [
+      0.0,
+      0.057011458333333334,
+      0.009150000000000004,
+      198.33333333333334,
+      50.11666666666667,
+      0.0,
+      13.141666666666667,
+      0.0
+    ],
+    "stds": [
+      0.001,
+      0.05713603268473467,
+      0.017288364968078698,
+      798.2264624408396,
+      13.413794472277415,
+      0.001,
+      4.456887179401601,
+      0.001
+    ],
+    "mins": [
+      0.0,
+      0.0,
+      0.0,
+      100.0,
+      37.0,
+      0.0,
+      10.0,
+      0.0
+    ],
+    "maxs": [
+      0.0,
+      0.2,
+      0.07,
+      8000.0,
+      149.0,
+      0.0,
+      20.0,
+      0.0
+    ]
+  },
+  "model": {
+    "type": "isolation_forest",
+    "n_estimators": 100,
+    "contamination": 0.2,
+    "score_range": [
+      -0.25629188478681053,
+      0.14521454180463822
+    ],
+    "score_mean": 0.05690172865514849,
+    "score_std": 0.0774822241038931,
+    "anomaly_threshold": -4.4181238528784306e-17,
+    "training_samples": 120,
+    "accuracy": 0.85,
+    "score_distribution": {
+      "min": -0.25629188478681053,
+      "max": 0.14521454180463822,
+      "mean": 0.05690172865514849,
+      "percentile_5": -0.06305197497711225,
+      "percentile_95": 0.14521454180463822
+    }
+  },
+  "attack_labels": {
+    "normal": 0,
+    "bruteforce": 1,
+    "password_spray": 2,
+    "sql_injection": 3,
+    "xss_attack": 4,
+    "path_traversal": 5,
+    "command_injection": 6,
+    "privilege_escalation": 7,
+    "data_exfiltration": 8,
+    "port_scan": 9,
+    "reconnaissance": 10,
+    "malware_activity": 11,
+    "c2_communication": 12,
+    "dos": 13,
+    "ransomware": 14,
+    "log4shell": 15,
+    "insider_threat": 16,
+    "account_takeover": 17,
+    "lateral_movement": 18,
+    "cryptomining": 19,
+    "webshell": 20,
+    "anomaly": 21
+  }
+}

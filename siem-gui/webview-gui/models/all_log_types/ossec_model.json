@@ -1,0 +1,98 @@
+{
+  "log_type": "ossec",
+  "category": "ids",
+  "description": "OSSEC HIDS alerts",
+  "version": "1.0.0",
+  "trained_at": "2026-02-03T12:26:22.625583",
+  "feature_names": [
+    "error_count",
+    "error_rate",
+    "line_count",
+    "unique_ips"
+  ],
+  "features": [
+    "alert_count",
+    "severity_distribution",
+    "rule_matches",
+    "unique_sources",
+    "false_positive_rate",
+    "critical_count"
+  ],
+  "attack_patterns": [
+    "intrusion_attempt",
+    "malware",
+    "rootkit",
+    "trojan"
+  ],
+  "feature_statistics": {
+    "means": [
+      12.958333333333334,
+      0.06539583333333335,
+      198.33333333333334,
+      0.0
+    ],
+    "stds": [
+      71.85228111051485,
+      0.09596106429815793,
+      798.2264624408396,
+      0.001
+    ],
+    "mins": [
+      0.0,
+      0.0,
+      100.0,
+      0.0
+    ],
+    "maxs": [
+      790.0,
+      0.26,
+      8000.0,
+      0.0
+    ]
+  },
+  "model": {
+    "type": "isolation_forest",
+    "n_estimators": 100,
+    "contamination": 0.2,
+    "score_range": [
+      -0.34749652685563237,
+      0.08686152399904218
+    ],
+    "score_mean": 0.04113297800559696,
+    "score_std": 0.07928290592458175,
+    "anomaly_threshold": 0.0,
+    "training_samples": 120,
+    "accuracy": 0.85,
+    "score_distribution": {
+      "min": -0.34749652685563237,
+      "max": 0.08686152399904218,
+      "mean": 0.04113297800559696,
+      "percentile_5": -0.12018282432207739,
+      "percentile_95": 0.08686152399904218
+    }
+  },
+  "attack_labels": {
+    "normal": 0,
+    "bruteforce": 1,
+    "password_spray": 2,
+    "sql_injection": 3,
+    "xss_attack": 4,
+    "path_traversal": 5,
+    "command_injection": 6,
+    "privilege_escalation": 7,
+    "data_exfiltration": 8,
+    "port_scan": 9,
+    "reconnaissance": 10,
+    "malware_activity": 11,
+    "c2_communication": 12,
+    "dos": 13,
+    "ransomware": 14,
+    "log4shell": 15,
+    "insider_threat": 16,
+    "account_takeover": 17,
+    "lateral_movement": 18,
+    "cryptomining": 19,
+    "webshell": 20,
+    "anomaly": 21
+  }
+}

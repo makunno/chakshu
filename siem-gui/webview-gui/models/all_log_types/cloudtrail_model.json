@@ -1,0 +1,98 @@
+{
+  "log_type": "cloudtrail",
+  "category": "cloud",
+  "description": "AWS CloudTrail logs",
+  "version": "1.0.0",
+  "trained_at": "2026-02-03T12:26:21.074603",
+  "feature_names": [
+    "error_count",
+    "error_rate",
+    "line_count",
+    "unique_ips"
+  ],
+  "features": [
+    "event_count",
+    "unique_users",
+    "unique_events",
+    "api_call_rate",
+    "error_count",
+    "resource_operations",
+    "region_distribution"
+  ],
+  "attack_patterns": [
+    "aws_misconfig",
+    "privilege_escalation",
+    "data_exfiltration"
+  ],
+  "feature_statistics": {
+    "means": [
+      13.316666666666666,
+      0.06719166666666668,
+      198.33333333333334,
+      0.0
+    ],
+    "stds": [
+      73.85400528000801,
+      0.09864914198576222,
+      798.2264624408396,
+      0.001
+    ],
+    "mins": [
+      0.0,
+      0.0,
+      100.0,
+      0.0
+    ],
+    "maxs": [
+      812.0,
+      0.29,
+      8000.0,
+      0.0
+    ]
+  },
+  "model": {
+    "type": "isolation_forest",
+    "n_estimators": 100,
+    "contamination": 0.2,
+    "score_range": [
+      -0.33322760383289673,
+      0.09387199222227849
+    ],
+    "score_mean": 0.05304845089901711,
+    "score_std": 0.07529952733400634,
+    "anomaly_threshold": 0.0,
+    "training_samples": 120,
+    "accuracy": 0.85,
+    "score_distribution": {
+      "min": -0.33322760383289673,
+      "max": 0.09387199222227849,
+      "mean": 0.05304845089901711,
+      "percentile_5": -0.055366775324119,
+      "percentile_95": 0.09387199222227849
+    }
+  },
+  "attack_labels": {
+    "normal": 0,
+    "bruteforce": 1,
+    "password_spray": 2,
+    "sql_injection": 3,
+    "xss_attack": 4,
+    "path_traversal": 5,
+    "command_injection": 6,
+    "privilege_escalation": 7,
+    "data_exfiltration": 8,
+    "port_scan": 9,
+    "reconnaissance": 10,
+    "malware_activity": 11,
+    "c2_communication": 12,
+    "dos": 13,
+    "ransomware": 14,
+    "log4shell": 15,
+    "insider_threat": 16,
+    "account_takeover": 17,
+    "lateral_movement": 18,
+    "cryptomining": 19,
+    "webshell": 20,
+    "anomaly": 21
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "log_type": "linux_kernel",
+  "category": "system",
+  "description": "Linux kernel logs",
+  "version": "1.0.0",
+  "trained_at": "2026-02-03T12:26:20.546417",
+  "feature_names": [
+    "critical_count",
+    "error_count",
+    "error_rate",
+    "severity_score",
+    "unique_programs",
+    "warning_count"
+  ],
+  "features": [
+    "error_count",
+    "warning_count",
+    "critical_count",
+    "oops_count",
+    "hardware_errors",
+    "memory_errors",
+    "disk_errors",
+    "network_errors"
+  ],
+  "attack_patterns": [
+    "kernel_exploit",
+    "rootkit",
+    "hardware_attack"
+  ],
+  "feature_statistics": {
+    "means": [
+      0.0,
+      10.316666666666666,
+      0.05238541666666667,
+      0.11579375000000001,
+      0.0,
+      2.1666666666666665
+    ],
+    "stds": [
+      0.001,
+      56.86369769267801,
+      0.07793104255214355,
+      0.1704824095546128,
+      0.001,
+      11.948338150771855
+    ],
+    "mins": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maxs": [
+      0.0,
+      625.0,
+      0.23,
+      0.51,
+      0.0,
+      131.0
+    ]
+  },
+  "model": {
+    "type": "isolation_forest",
+    "n_estimators": 100,
+    "contamination": 0.2,
+    "score_range": [
+      -0.34823708300506784,
+      0.07728640313160062
+    ],
+    "score_mean": 0.040684755489148676,
+    "score_std": 0.06529811751673822,
+    "anomaly_threshold": 5.204170427930421e-17,
+    "training_samples": 120,
+    "accuracy": 0.85,
+    "score_distribution": {
+      "min": -0.34823708300506784,
+      "max": 0.07728640313160062,
+      "mean": 0.040684755489148676,
+      "percentile_5": -0.0675099438290709,
+      "percentile_95": 0.07728640313160062
+    }
+  },
+  "attack_labels": {
+    "normal": 0,
+    "bruteforce": 1,
+    "password_spray": 2,
+    "sql_injection": 3,
+    "xss_attack": 4,
+    "path_traversal": 5,
+    "command_injection": 6,
+    "privilege_escalation": 7,
+    "data_exfiltration": 8,
+    "port_scan": 9,
+    "reconnaissance": 10,
+    "malware_activity": 11,
+    "c2_communication": 12,
+    "dos": 13,
+    "ransomware": 14,
+    "log4shell": 15,
+    "insider_threat": 16,
+    "account_takeover": 17,
+    "lateral_movement": 18,
+    "cryptomining": 19,
+    "webshell": 20,
+    "anomaly": 21
+  }
+}

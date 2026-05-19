@@ -1,0 +1,101 @@
+{
+  "log_type": "suricata",
+  "category": "ids",
+  "description": "Suricata IDS alerts",
+  "version": "1.0.0",
+  "trained_at": "2026-02-03T12:26:20.889877",
+  "feature_names": [
+    "error_count",
+    "error_rate",
+    "line_count",
+    "unique_ips"
+  ],
+  "features": [
+    "alert_count",
+    "unique_signatures",
+    "severity_distribution",
+    "source_ip_count",
+    "target_ip_count",
+    "protocol_distribution",
+    "attack_category_count",
+    "priority_distribution"
+  ],
+  "attack_patterns": [
+    "exploit",
+    "malware",
+    "trojan",
+    "backdoor",
+    "c2"
+  ],
+  "feature_statistics": {
+    "means": [
+      13.158333333333333,
+      0.06666458333333337,
+      198.33333333333334,
+      0.0
+    ],
+    "stds": [
+      72.66644293694372,
+      0.09706421732271799,
+      798.2264624408396,
+      0.001
+    ],
+    "mins": [
+      0.0,
+      0.0,
+      100.0,
+      0.0
+    ],
+    "maxs": [
+      799.0,
+      0.28,
+      8000.0,
+      0.0
+    ]
+  },
+  "model": {
+    "type": "isolation_forest",
+    "n_estimators": 100,
+    "contamination": 0.2,
+    "score_range": [
+      -0.3674691160706177,
+      0.06526013665838831
+    ],
+    "score_mean": 0.028840357647844563,
+    "score_std": 0.07450850304230727,
+    "anomaly_threshold": 0.0,
+    "training_samples": 120,
+    "accuracy": 0.85,
+    "score_distribution": {
+      "min": -0.3674691160706177,
+      "max": 0.06526013665838831,
+      "mean": 0.028840357647844563,
+      "percentile_5": -0.10733977536003014,
+      "percentile_95": 0.06526013665838831
+    }
+  },
+  "attack_labels": {
+    "normal": 0,
+    "bruteforce": 1,
+    "password_spray": 2,
+    "sql_injection": 3,
+    "xss_attack": 4,
+    "path_traversal": 5,
+    "command_injection": 6,
+    "privilege_escalation": 7,
+    "data_exfiltration": 8,
+    "port_scan": 9,
+    "reconnaissance": 10,
+    "malware_activity": 11,
+    "c2_communication": 12,
+    "dos": 13,
+    "ransomware": 14,
+    "log4shell": 15,
+    "insider_threat": 16,
+    "account_takeover": 17,
+    "lateral_movement": 18,
+    "cryptomining": 19,
+    "webshell": 20,
+    "anomaly": 21
+  }
+}

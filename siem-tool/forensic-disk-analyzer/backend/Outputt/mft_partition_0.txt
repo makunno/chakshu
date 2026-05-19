@@ -1,0 +1,73 @@
+MFT Listing for Partition 0
+Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/jo-favorites-usb-2009-12-11.E01
+Offset: 63 bytes
+Filesystem: auto
+================================================================================
+
+r/r 3:	JO FAVORITE (Volume Label Entry)
+r/r 5:	._.Trashes
+r/r 6:	DSC00009.JPG
+d/d 8:	.Trashes
+d/d * 10:	.fseventsd
+d/d 13:	.Spotlight-V100
+d/d 15:	HighQuality
+r/r 16:	DSC00010.JPG
+r/r 17:	DSC00011.JPG
+r/r 18:	DSC00012.JPG
+r/r 19:	DSC00013.JPG
+r/r 20:	DSC00014.JPG
+r/r 21:	DSC00015.JPG
+r/r 22:	DSC00016.JPG
+r/r 23:	DSC00017.JPG
+r/r 24:	DSC00018.JPG
+r/r 25:	DSC00019.JPG
+r/r 26:	DSC00020.JPG
+r/r 27:	DSC00021.JPG
+r/r 28:	DSC00022.JPG
+r/r 29:	DSC00023.JPG
+r/r 30:	DSC00024.JPG
+r/r 31:	DSC00025.JPG
+r/r 32:	DSC00026.JPG
+r/r 33:	DSC00027.JPG
+r/r 34:	DSC00028.JPG
+r/r 35:	DSC00029.JPG
+r/r 36:	DSC00030.JPG
+r/r 37:	DSC00031.JPG
+r/r 38:	DSC00032.JPG
+r/r 39:	DSC00033.JPG
+r/r 40:	DSC00034.JPG
+r/r 41:	DSC00035.JPG
+r/r 42:	DSC00036.JPG
+r/r 43:	DSC00037.JPG
+r/r 44:	DSC00038.JPG
+r/r 45:	DSC00039.JPG
+r/r 46:	DSC00040.JPG
+r/r 47:	DSC00041.JPG
+r/r 48:	DSC00042.JPG
+r/r 49:	DSC00043.JPG
+r/r 50:	DSC00044.JPG
+r/r 51:	DSC00045.JPG
+r/r 52:	DSC00046.JPG
+r/r 53:	DSC00047.JPG
+r/r 54:	DSC00048.JPG
+r/r 55:	DSC00049.JPG
+r/r 56:	DSC00050.JPG
+r/r 57:	DSC00051.JPG
+r/r * 59:	Cat.m4v
+d/d * 60:	_NTITL~1
+d/d 62:	Videos
+r/r * 64:	._Cat.m4v
+r/r * 66:	Cat.mov
+r/r * 68:	._Cat.mov
+r/r * 71:	KittyMontage.mov
+r/r * 74:	._KittyMontage.mov
+r/r * 77:	MontereyKitty.m4v
+r/r * 80:	._MontereyKitty.m4v
+r/r * 83:	MontereyKittyHQ.m4v
+r/r * 86:	._MontereyKittyHQ.m4v
+r/r * 89:	TiggerTheCat.m4v
+r/r * 92:	._TiggerTheCat.m4v
+v/v 32701667:	$MBR
+v/v 32701668:	$FAT1
+v/v 32701669:	$FAT2
+V/V 32701670:	$OrphanFiles

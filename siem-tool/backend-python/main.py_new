@@ -1,0 +1,51 @@
+    filename = os.path.basename(task.pdf_path)
+    return FileResponse(
+        path=task.pdf_path,
+        media_type="application/pdf",
+        filename=filename,
+    )
+
+
+from siem_report_generator import SIEMPDFReport
+
+
+class ReportRequest(BaseModel):
+    data: Dict[str, Any]
+    soc_summary: Optional[str] = None
+
+
+@app.post("/generate-report")
+async def generate_siem_report(request: ReportRequest):
+    """Generate a PDF report from SIEM analysis data"""
+    try:
+        # Create reports directory if it doesn't exist
+        reports_dir = os.path.join(os.path.dirname(__file__), "reports")
+        os.makedirs(reports_dir, exist_ok=True)
+
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"siem_report_{timestamp}.pdf"
+        output_path = os.path.join(reports_dir, filename)
+
+        report = SIEMPDFReport(
+            output_path=output_path, data=request.data, soc_summary=request.soc_summary
+        )
+        report.generate()
+
+        if not os.path.exists(output_path):
+            raise HTTPException(status_code=500, detail="Failed to generate PDF file")
+
+        return FileResponse(
+            path=output_path, media_type="application/pdf", filename=filename
+        )
+    except Exception as e:
+        import traceback
+
+        print(f"Report generation error: {e}")
+        print(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=f"Report generation failed: {str(e)}")
+
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(app, host="0.0.0.0", port=8788)

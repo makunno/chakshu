@@ -1,0 +1,29 @@
+{
+  "analysis_type": "Advanced Anti-Forensic Detection (11 checks)",
+  "checks_implemented": [
+    "1. $SI vs $FN Drift Analysis",
+    "2. USN Temporal Forward Check",
+    "3. $LogFile LSN Monotonicity",
+    "4. Volume Creation Time Check",
+    "5. OS Install Time Check",
+    "6. Boot-Time Boundary Violations",
+    "7. Clock Rollback Detection",
+    "8. MFT Record Sequence Analysis",
+    "9. Timestamp Entropy Analysis",
+    "10. Microsecond/Nanosecond Patterns",
+    "11. Shadow Copy Differential Reconstruction"
+  ],
+  "file_results": [],
+  "batch_patterns": [],
+  "clock_rollbacks": [],
+  "summary": {
+    "total_files_analyzed": 0,
+    "timestomped_files": 0,
+    "high_severity_count": 0,
+    "critical_severity_count": 0,
+    "medium_severity_count": 0,
+    "note": "Filesystem is unknown - MFT analysis not applicable"
+  },
+  "filesystem_type": "unknown",
+  "note": "Advanced anti-forensic detection requires NTFS filesystem. Found unknown."
+}

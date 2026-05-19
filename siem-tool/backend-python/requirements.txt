@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+numpy
+pandas
+scikit-learn
+reportlab
+python-evtx>=0.7.0
+requests
+python-dotenv
+gunicorn

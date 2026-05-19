@@ -1,0 +1,110 @@
+{
+  "analysis_metadata": {
+    "output_directory": "Outputt",
+    "analyzed_at": "2026-02-28T21:46:40.669319",
+    "total_files_analyzed": 194,
+    "total_suspicious": 2,
+    "artifacts_summary": {
+      "timeline_records": 251,
+      "usn_records": 0,
+      "shadow_copies": 1,
+      "ads_files": 0,
+      "registry_hives": 0,
+      "security_events": 0,
+      "system_events": 0,
+      "prefetch_files": 0
+    }
+  },
+  "summary": {
+    "critical_count": 0,
+    "high_count": 2,
+    "medium_count": 0,
+    "total_indicators": 2
+  },
+  "critical_findings": [],
+  "high_findings": [
+    {
+      "filename": "JO FAVORITE (Volume Label Entry)",
+      "severity": "HIGH",
+      "score": 75.0,
+      "indicators": [
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: JO FAVORITE (Volume Label Entry), Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": null,
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "$OrphanFiles",
+      "severity": "HIGH",
+      "score": 75.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: $OrphanFiles, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        }
+      ],
+      "si_created": null,
+      "has_prefetch": false,
+      "has_amcache": false
+    }
+  ],
+  "medium_findings": [],
+  "all_suspicious": [
+    {
+      "filename": "JO FAVORITE (Volume Label Entry)",
+      "severity": "HIGH",
+      "score": 75.0,
+      "indicators": [
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: JO FAVORITE (Volume Label Entry), Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": null,
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "$OrphanFiles",
+      "severity": "HIGH",
+      "score": 75.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: $OrphanFiles, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        }
+      ],
+      "si_created": null,
+      "has_prefetch": false,
+      "has_amcache": false
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "timestamp": "2026-02-28T21:46:40.675080",
+  "output_dir": "Outputt",
+  "file_analysis": {
+    "files_by_priority": {
+      "critical": [
+        {
+          "path": "Outputt/registry_partition_0.txt",
+          "name": "registry_partition_0.txt",
+          "size_bytes": 333,
+          "size_mb": 0.0,
+          "priority": "critical"
+        },
+        {
+          "path": "Outputt/shadow_copies_partition_0.txt",
+          "name": "shadow_copies_partition_0.txt",
+          "size_bytes": 904,
+          "size_mb": 0.0,
+          "priority": "critical"
+        },
+        {
+          "path": "Outputt/usn_journal_partition_0.txt",
+          "name": "usn_journal_partition_0.txt",
+          "size_bytes": 7306,
+          "size_mb": 0.01,
+          "priority": "critical"
+        }
+      ],
+      "important": [
+        {
+          "path": "Outputt/timeline_partition_0.txt",
+          "name": "timeline_partition_0.txt",
+          "size_bytes": 35731,
+          "size_mb": 0.03,
+          "priority": "important"
+        },
+        {
+          "path": "Outputt/timestomp_indicators_partition_0.txt",
+          "name": "timestomp_indicators_partition_0.txt",
+          "size_bytes": 35796,
+          "size_mb": 0.03,
+          "priority": "important"
+        },
+        {
+          "path": "Outputt/hidden_structures_partition_0.txt",
+          "name": "hidden_structures_partition_0.txt",
+          "size_bytes": 247,
+          "size_mb": 0.0,
+          "priority": "important"
+        },
+        {
+          "path": "Outputt/mft_partition_0.txt",
+          "name": "mft_partition_0.txt",
+          "size_bytes": 1706,
+          "size_mb": 0.0,
+          "priority": "important"
+        },
+        {
+          "path": "Outputt/timestomp_report.txt",
+          "name": "timestomp_report.txt",
+          "size_bytes": 3249,
+          "size_mb": 0.0,
+          "priority": "important"
+        }
+      ],
+      "standard": [
+        {
+          "path": "Outputt/logs_partition_0.txt",
+          "name": "logs_partition_0.txt",
+          "size_bytes": 264,
+          "size_mb": 0.0,
+          "priority": "standard"
+        }
+      ]
+    },
+    "files_analyzed": {
+      "critical": [
+        {
+          "name": "registry_partition_0.txt",
+          "path": "Outputt/registry_partition_0.txt",
+          "size": 333,
+          "line_count": 10,
+          "key_findings": [
+            {
+              "type": "hive_found",
+              "description": "SYSTEM: 1 references",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "Registry Hives for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/jo-favorites-usb-2009-12-11.E01",
+            "Offset: 63 bytes",
+            "Filesystem: auto",
+            "================================================================================",
+            "",
+            "No registry hives found in standard locations.",
+            "",
+            "Searching full output for .DAT/.LOG files...",
+            ""
+          ]
+        },
+        {
+          "name": "shadow_copies_partition_0.txt",
+          "path": "Outputt/shadow_copies_partition_0.txt",
+          "size": 904,
+          "line_count": 21,
+          "key_findings": [
+            {
+              "type": "vss_indicator",
+              "description": "VSS-related entry: vss",
+              "severity": "info"
+            },
+            {
+              "type": "vss_indicator",
+              "description": "VSS-related entry: shadow",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "Shadow Copy / VSS Indicators for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/jo-favorites-usb-2009-12-11.E01",
+            "================================================================================",
+            "",
+            "Potential Shadow Copy / VSS Related Files:",
+            "++++ r/r 1687:\t0.shadowIndexHead",
+            "++++ r/r 1694:\t0.shadowIndexGroups",
+            "++++ r/r * 1729:\t1.shadowIndexHead",
+            "++++ r/r 1757:\tlive.0.shadowIndexHead",
+            "++++ r/r 1763:\tlive.0.shadowIndexTermIds",
+            "++++ r/r * 1768:\t2.shadowIndexHead",
+            "++++ r/r * 1771:\t0.shadowIndexGroups",
+            "++++ r/r 1783:\tlive.0.shadowIndexArrays",
+            "++++ r/r * 19980:\t2.shadowIndex",
+            "++++ r/r * 19985:\t2.shadowIndexGroups",
+            "++++ r/r 19999:\tlive.0.shadowIndexPositionTable",
+            "++++ r/r 20003:\tlive.0.shadowIndexCompactDirectory",
+            "++++ r/r 20019:\tlive.0.shadowIndexDirectory",
+            "++++ r/r 20022:\tlive.0.shadowIndexGroups",
+            "++++ r/r * 20032:\ttmp.merge.0.shadowIndexHead"
+          ]
+        },
+        {
+          "name": "usn_journal_partition_0.txt",
+          "path": "Outputt/usn_journal_partition_0.txt",
+          "size": 7306,
+          "line_count": 261,
+          "key_findings": [
+            {
+              "type": "missing",
+              "description": "USN journal not found",
+              "severity": "high"
+            },
+            {
+              "type": "entry_count",
+              "description": "USN journal contains 257 entries",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "USN Journal Files for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/jo-favorites-usb-2009-12-11.E01",
+            "Offset: 63 bytes",
+            "Filesystem: auto",
+            "================================================================================",
+            "",
+            "No USN journal files found.",
+            "",
+            "Full file list for reference:",
+            "r/r 3:\tJO FAVORITE (Volume Label Entry)",
+            "r/r 5:\t._.Trashes",
+            "r/r 6:\tDSC00009.JPG",
+            "d/d 8:\t.Trashes",
+            "+ d/d * 133:\t_02",
+            "+ r/r * 135:\t._502",
+            "+ r/r * 136:\t_502~1",
+            "+ r/r * 138:\t._501",
+            "d/d * 10:\t.fseventsd",
+            "d/d 13:\t.Spotlight-V100",
+            "+ d/d 646:\tStore-V1"
+          ]
+        }
+      ],
+      "important": [
+        {
+          "name": "timeline_partition_0.txt",
+          "path": "Outputt/timeline_partition_0.txt",
+          "size": 35731,
+          "line_count": 257,
+          "key_findings": [
+            {
+              "type": "zero_timestamp",
+              "description": "Zero timestamps found",
+              "severity": "medium"
+            },
+            {
+              "type": "total_entries",
+              "description": "Timeline contains 257 entries",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "Full Timeline for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/jo-favorites-usb-2009-12-11.E01",
+            "Offset: 63 bytes",
+            "================================================================================",
+            "",
+            "r/r 3:\tJO FAVORITE (Volume Label Entry)\t2009-11-20 09:30:34 (IST)\t0000-00-00 00:00:00 (UTC)\t0000-00-00 00:00:00 (UTC)\t0000-00-00 00:00:00 (UTC)\t0\t0\t0",
+            "r/r 5:\t._.Trashes\t2009-11-17 16:45:26 (IST)\t2009-11-20 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:26 (IST)\t4096\t0\t0",
+            "r/r 6:\tDSC00009.JPG\t2009-11-11 09:16:56 (IST)\t2009-11-24 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-18 04:36:30 (IST)\t334501\t0\t0",
+            "d/d 8:\t.Trashes\t2009-11-17 16:45:26 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:26 (IST)\t4096\t0\t0",
+            "+ d/d * 133:\t_02\t2009-11-20 09:25:26 (IST)\t2009-11-20 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-20 09:25:27 (IST)\t4096\t0\t0",
+            "+ r/r * 135:\t._502\t2009-11-20 09:25:28 (IST)\t2009-11-20 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-20 09:25:28 (IST)\t4096\t0\t0",
+            "+ r/r * 136:\t_502~1\t2009-11-17 16:45:28 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:28 (IST)\t4096\t0\t0",
+            "+ r/r * 138:\t._501\t2009-11-17 16:45:28 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:28 (IST)\t4096\t0\t0",
+            "d/d * 10:\t.fseventsd\t2009-11-17 16:45:26 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:26 (IST)\t0\t0\t0",
+            "d/d 13:\t.Spotlight-V100\t2009-11-17 16:45:26 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:27 (IST)\t4096\t0\t0",
+            "+ d/d 646:\tStore-V1\t2009-11-17 16:45:26 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:27 (IST)\t4096\t0\t0",
+            "++ r/r 775:\tVolumeConfig.plist\t2009-11-17 16:45:28 (IST)\t2009-11-20 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:28 (IST)\t348\t0\t0",
+            "++ d/d 777:\tStores\t2009-11-17 16:45:28 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:29 (IST)\t4096\t0\t0",
+            "+++ d/d 1544:\tBC650BA8-C5B5-4A64-8BDB-18A9533BF1D7\t2009-11-17 16:45:28 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:29 (IST)\t8192\t0\t0",
+            "++++ r/r 1669:\tpsid.db\t2009-11-20 09:30:34 (IST)\t2009-11-20 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:30 (IST)\t8192\t0\t0"
+          ]
+        },
+        {
+          "name": "timestomp_indicators_partition_0.txt",
+          "path": "Outputt/timestomp_indicators_partition_0.txt",
+          "size": 35796,
+          "line_count": 259,
+          "key_findings": [
+            {
+              "type": "zero_timestamp",
+              "description": "Zero timestamps found",
+              "severity": "medium"
+            },
+            {
+              "type": "total_entries",
+              "description": "Timeline contains 259 entries",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "Timestamp Analysis for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/jo-favorites-usb-2009-12-11.E01",
+            "================================================================================",
+            "",
+            "Full file listing with timestamps:",
+            "Format: mode uid gid size date time name",
+            "",
+            "r/r 3:\tJO FAVORITE (Volume Label Entry)\t2009-11-20 09:30:34 (IST)\t0000-00-00 00:00:00 (UTC)\t0000-00-00 00:00:00 (UTC)\t0000-00-00 00:00:00 (UTC)\t0\t0\t0",
+            "r/r 5:\t._.Trashes\t2009-11-17 16:45:26 (IST)\t2009-11-20 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:26 (IST)\t4096\t0\t0",
+            "r/r 6:\tDSC00009.JPG\t2009-11-11 09:16:56 (IST)\t2009-11-24 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-18 04:36:30 (IST)\t334501\t0\t0",
+            "d/d 8:\t.Trashes\t2009-11-17 16:45:26 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:26 (IST)\t4096\t0\t0",
+            "+ d/d * 133:\t_02\t2009-11-20 09:25:26 (IST)\t2009-11-20 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-20 09:25:27 (IST)\t4096\t0\t0",
+            "+ r/r * 135:\t._502\t2009-11-20 09:25:28 (IST)\t2009-11-20 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-20 09:25:28 (IST)\t4096\t0\t0",
+            "+ r/r * 136:\t_502~1\t2009-11-17 16:45:28 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:28 (IST)\t4096\t0\t0",
+            "+ r/r * 138:\t._501\t2009-11-17 16:45:28 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:28 (IST)\t4096\t0\t0",
+            "d/d * 10:\t.fseventsd\t2009-11-17 16:45:26 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:26 (IST)\t0\t0\t0",
+            "d/d 13:\t.Spotlight-V100\t2009-11-17 16:45:26 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:27 (IST)\t4096\t0\t0",
+            "+ d/d 646:\tStore-V1\t2009-11-17 16:45:26 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:27 (IST)\t4096\t0\t0",
+            "++ r/r 775:\tVolumeConfig.plist\t2009-11-17 16:45:28 (IST)\t2009-11-20 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:28 (IST)\t348\t0\t0",
+            "++ d/d 777:\tStores\t2009-11-17 16:45:28 (IST)\t2009-11-17 00:00:00 (IST)\t0000-00-00 00:00:00 (UTC)\t2009-11-17 16:45:29 (IST)\t4096\t0\t0"
+          ]
+        },
+        {
+          "name": "hidden_structures_partition_0.txt",
+          "path": "Outputt/hidden_structures_partition_0.txt",
+          "size": 247,
+          "line_count": 6,
+          "key_findings": [],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "Hidden Structures / ADS for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/jo-favorites-usb-2009-12-11.E01",
+            "================================================================================",
+            "",
+            "No hidden structures/ADS found.",
+            ""
+          ]
+        },
+        {
+          "name": "mft_partition_0.txt",
+          "path": "Outputt/mft_partition_0.txt",
+          "size": 1706,
+          "line_count": 74,
+          "key_findings": [
+            {
+              "type": "orphan_files",
+              "description": "Orphaned files found (deleted but recoverable)",
+              "severity": "medium"
+            },
+            {
+              "type": "system_files",
+              "description": "System files found: ",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "MFT Listing for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/jo-favorites-usb-2009-12-11.E01",
+            "Offset: 63 bytes",
+            "Filesystem: auto",
+            "================================================================================",
+            "",
+            "r/r 3:\tJO FAVORITE (Volume Label Entry)",
+            "r/r 5:\t._.Trashes",
+            "r/r 6:\tDSC00009.JPG",
+            "d/d 8:\t.Trashes",
+            "d/d * 10:\t.fseventsd",
+            "d/d 13:\t.Spotlight-V100",
+            "d/d 15:\tHighQuality",
+            "r/r 16:\tDSC00010.JPG",
+            "r/r 17:\tDSC00011.JPG",
+            "r/r 18:\tDSC00012.JPG",
+            "r/r 19:\tDSC00013.JPG",
+            "r/r 20:\tDSC00014.JPG",
+            "r/r 21:\tDSC00015.JPG",
+            "r/r 22:\tDSC00016.JPG"
+          ]
+        },
+        {
+          "name": "timestomp_report.txt",
+          "path": "Outputt/timestomp_report.txt",
+          "size": 3249,
+          "line_count": 68,
+          "key_findings": [
+            {
+              "type": "total_entries",
+              "description": "Timeline contains 68 entries",
+              "severity": "info"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "==========================================================================================",
+            "           TIMESTOMPING DETECTION FORENSIC REPORT",
+            "           Generated by Cyber Chakshu Hardcoded Detection Engine",
+            "==========================================================================================",
+            "",
+            "Analysis Date:      2026-02-28T21:46:40.669319",
+            "Output Directory:  Outputt",
+            "Total Files Analyzed: 194",
+            "",
+            "------------------------------------------------------------------------------------------",
+            "                              EXECUTIVE SUMMARY",
+            "------------------------------------------------------------------------------------------",
+            "",
+            "  [CRITICAL] Critical Findings:  0",
+            "  [HIGH]     High Findings:       2",
+            "  [MEDIUM]   Medium Findings:     0",
+            "  Total Suspicious Files:        0",
+            "  Total Indicators:             2",
+            "",
+            "=========================================================================================="
+          ]
+        }
+      ],
+      "standard": [
+        {
+          "name": "logs_partition_0.txt",
+          "path": "Outputt/logs_partition_0.txt",
+          "size": 264,
+          "line_count": 8,
+          "key_findings": [
+            {
+              "type": "event_logs",
+              "description": "0 Windows event log files found",
+              "severity": "info"
+            },
+            {
+              "type": "few_logs",
+              "description": "Few or no log files found",
+              "severity": "medium"
+            }
+          ],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "Log Files for Partition 0",
+            "Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/jo-favorites-usb-2009-12-11.E01",
+            "Offset: 63 bytes",
+            "Filesystem: auto",
+            "================================================================================",
+            "",
+            "No explicit log files found.",
+            ""
+          ]
+        }
+      ]
+    },
+    "total_files": 9
+  },
+  "evidence": {
+    "timestomping": {
+      "future_dates": [
+        "USN journal missing"
+      ],
+      "zero_timestamps": [],
+      "identical_timestamps": [],
+      "total_checked": 68
+    },
+    "shadow_copies": {
+      "extend_exists": false,
+      "system_volume_info": false,
+      "indicators": []
+    },
+    "alternate_data_streams": {
+      "total_found": 0,
+      "zone_identifier": 0,
+      "samples": []
+    },
+    "file_deletion": {
+      "orphans": 1,
+      "deleted_entries": 0,
+      "recycle_bin": false
+    },
+    "registry": {
+      "hives_found": [],
+      "tool_indicators": []
+    },
+    "logs": {
+      "event_logs": 0,
+      "log_files": []
+    }
+  },
+  "context": {
+    "system_prompt": "You are an expert forensic analyst specializing in digital forensics and anti-forensic technique detection. Your role is to analyze extracted disk image artifacts and identify evidence of anti-forensic activities.\n\nKNOWLEDGE AREAS:\n- Windows NTFS filesystem forensics\n- Master File Table (MFT) analysis\n- USN Journal interpretation ($UsnJrnl:$J)\n- $LogFile transaction analysis\n- Registry forensics (SAM, SECURITY, SOFTWARE, SYSTEM hives)\n- Volume Shadow Copy (VSS) analysis\n- Alternate Data Streams (ADS)\n- Timestomping techniques (SI vs FN mismatch detection)\n- Log manipulation and clearing\n- Common anti-forensic tools (Timestomp, CCleaner, BleachBit, etc.)\n\nIMPORTANT - LAYERED CORRELATION METHODOLOGY:\nThe analysis uses a 4-layer weighted correlation model to detect timestomping:\n- Layer 1 (30%): MFT $SI vs $FN timestamp comparison - compares Standard Information vs File Name timestamps\n- Layer 2 (30%): USN Journal - verifies file creation against FILE_CREATE events\n- Layer 3 (20%): $LogFile - checks transaction history for SetFileInformation operations\n- Layer 4 (20%): External artifacts - future dates, zero timestamps, volume correlation\n\nUse the layered correlation findings in your analysis to provide accurate assessments.\n\nRESPONSE REQUIREMENTS:\n1. Prioritize findings from the layered correlation analysis\n2. Provide reasoning for each finding\n3. Distinguish between normal Windows behavior and suspicious activity\n4. Correlate findings across multiple artifacts\n5. Assign severity levels with justification\n6. Suggest specific follow-up investigations",
+    "evidence_summary": "\nEVIDENCE SUMMARY\n================\n\nLAYERED TIMESTOMP CORRELATION (PRIMARY ANALYSIS):\nLayered correlation results not available.\n\nTIMESTOMPING ANALYSIS:\n- Files with future dates: 1\n- Zero timestamps: 0\n- Total timeline entries analyzed: 68\n- Sample future dates: ['USN journal missing']\n\nSHADOW COPY STATUS:\n- $Extend exists: False\n- System Volume Information: False\n- Other indicators: []\n\nALTERNATE DATA STREAMS:\n- Total ADS found: 0\n- Zone.Identifier (downloaded): 0\n- Samples: []\n\nFILE DELETION:\n- Orphaned files: 1\n- Deleted MFT entries: 0\n- Recycle Bin present: False\n\nREGISTRY:\n- Hives found: []\n- Tool indicators: []\n\nLOG FILES:\n- Event logs (.evtx): 0\n",
+    "layered_summary": "Layered correlation results not available.\n",
+    "analysis_instructions": "\nTASK:\nAnalyze the extracted forensic artifacts and produce a structured analysis report.\n\nFOR EACH FINDING, PROVIDE:\n1. Technique detected (e.g., timestomping, shadow copy deletion)\n2. Severity (LOW/MEDIUM/HIGH/CRITICAL)\n3. Evidence: Specific file entries or data that supports the finding\n4. Explanation: WHY this indicates anti-forensic activity vs normal behavior\n5. Recommendation: Specific follow-up investigation steps\n\nCORRELATE ACROSS ARTIFACTS:\n- Timestomping: Cross-reference timeline with USN journal timestamps\n- Deletion: Check MFT deleted entries + Recycle Bin + orphan files\n- Shadow Copies: Verify $Extend + System Volume Information status\n- ADS: Note which files have streams and their types\n\nFINAL OUTPUT:\nProvide a JSON object with your findings (schema below).\n",
+    "json_output_schema": "\nJSON Output Schema:\n{\n  \"findings\": [\n    {\n      \"technique\": \"timestomping|shadow_deletion|ads|deletion|registry_tampering|log_clearing|other\",\n      \"severity\": \"LOW|MEDIUM|HIGH|CRITICAL\",\n      \"evidence\": \"Specific data supporting this finding\",\n      \"explanation\": \"Detailed reasoning for why this is/isn't suspicious\",\n      \"recommendation\": \"Specific follow-up investigation\",\n      \"file_source\": \"Which artifact file contains this evidence\"\n    }\n  ],\n  \"summary\": \"Overall assessment in 2-3 sentences\",\n  \"risk_level\": \"LOW|MEDIUM|HIGH|CRITICAL\",\n  \"recommendations\": [\"List of general recommendations\"]\n}\n"
+  },
+  "statistics": {
+    "total_files_processed": 9,
+    "total_size_bytes": 85536,
+    "total_size_mb": 0.08,
+    "files_by_priority": {
+      "critical": 3,
+      "important": 5,
+      "standard": 1
+    }
+  },
+  "layered_correlation": {}
+}

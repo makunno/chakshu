@@ -1,0 +1,98 @@
+{
+  "log_type": "apache_error",
+  "category": "webserver",
+  "description": "Apache error logs",
+  "version": "1.0.0",
+  "trained_at": "2026-02-03T12:26:20.367367",
+  "feature_names": [
+    "error_count",
+    "error_rate",
+    "line_count",
+    "unique_ips"
+  ],
+  "features": [
+    "error_count",
+    "warning_count",
+    "notice_count",
+    "unique_clients",
+    "unique_modules",
+    "max_errors_per_minute",
+    "critical_error_rate"
+  ],
+  "attack_patterns": [
+    "dos",
+    "scanning",
+    "exploit_attempt"
+  ],
+  "feature_statistics": {
+    "means": [
+      12.625,
+      0.06401250000000001,
+      198.33333333333334,
+      0.0
+    ],
+    "stds": [
+      69.67369461560965,
+      0.0938017704235754,
+      798.2264624408396,
+      0.001
+    ],
+    "mins": [
+      0.0,
+      0.0,
+      100.0,
+      0.0
+    ],
+    "maxs": [
+      766.0,
+      0.27,
+      8000.0,
+      0.0
+    ]
+  },
+  "model": {
+    "type": "isolation_forest",
+    "n_estimators": 100,
+    "contamination": 0.2,
+    "score_range": [
+      -0.37996217567320467,
+      0.0629126367475698
+    ],
+    "score_mean": 0.023656593682070664,
+    "score_std": 0.07785849454101482,
+    "anomaly_threshold": 0.0,
+    "training_samples": 120,
+    "accuracy": 0.85,
+    "score_distribution": {
+      "min": -0.37996217567320467,
+      "max": 0.0629126367475698,
+      "mean": 0.023656593682070664,
+      "percentile_5": -0.12306659026992851,
+      "percentile_95": 0.0629126367475698
+    }
+  },
+  "attack_labels": {
+    "normal": 0,
+    "bruteforce": 1,
+    "password_spray": 2,
+    "sql_injection": 3,
+    "xss_attack": 4,
+    "path_traversal": 5,
+    "command_injection": 6,
+    "privilege_escalation": 7,
+    "data_exfiltration": 8,
+    "port_scan": 9,
+    "reconnaissance": 10,
+    "malware_activity": 11,
+    "c2_communication": 12,
+    "dos": 13,
+    "ransomware": 14,
+    "log4shell": 15,
+    "insider_threat": 16,
+    "account_takeover": 17,
+    "lateral_movement": 18,
+    "cryptomining": 19,
+    "webshell": 20,
+    "anomaly": 21
+  }
+}

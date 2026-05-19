@@ -1,0 +1,97 @@
+{
+  "log_type": "azure_nsg",
+  "category": "cloud",
+  "description": "Azure NSG Flow Logs",
+  "version": "1.0.0",
+  "trained_at": "2026-02-03T12:26:22.969978",
+  "feature_names": [
+    "error_count",
+    "error_rate",
+    "line_count",
+    "unique_ips"
+  ],
+  "features": [
+    "flow_count",
+    "allowed_flows",
+    "denied_flows",
+    "unique_ips",
+    "port_distribution",
+    "direction_distribution"
+  ],
+  "attack_patterns": [
+    "unauthorized_access",
+    "data_exfiltration",
+    "reconnaissance"
+  ],
+  "feature_statistics": {
+    "means": [
+      12.575,
+      0.06359375000000002,
+      198.33333333333334,
+      0.0
+    ],
+    "stds": [
+      69.57238570082768,
+      0.092673185729366,
+      798.2264624408396,
+      0.001
+    ],
+    "mins": [
+      0.0,
+      0.0,
+      100.0,
+      0.0
+    ],
+    "maxs": [
+      765.0,
+      0.25,
+      8000.0,
+      0.0
+    ]
+  },
+  "model": {
+    "type": "isolation_forest",
+    "n_estimators": 100,
+    "contamination": 0.2,
+    "score_range": [
+      -0.3575507815035016,
+      0.0778580149112168
+    ],
+    "score_mean": 0.03643211200042358,
+    "score_std": 0.07915296266985668,
+    "anomaly_threshold": 0.0,
+    "training_samples": 120,
+    "accuracy": 0.85,
+    "score_distribution": {
+      "min": -0.3575507815035016,
+      "max": 0.0778580149112168,
+      "mean": 0.03643211200042358,
+      "percentile_5": -0.14025156662211435,
+      "percentile_95": 0.0778580149112168
+    }
+  },
+  "attack_labels": {
+    "normal": 0,
+    "bruteforce": 1,
+    "password_spray": 2,
+    "sql_injection": 3,
+    "xss_attack": 4,
+    "path_traversal": 5,
+    "command_injection": 6,
+    "privilege_escalation": 7,
+    "data_exfiltration": 8,
+    "port_scan": 9,
+    "reconnaissance": 10,
+    "malware_activity": 11,
+    "c2_communication": 12,
+    "dos": 13,
+    "ransomware": 14,
+    "log4shell": 15,
+    "insider_threat": 16,
+    "account_takeover": 17,
+    "lateral_movement": 18,
+    "cryptomining": 19,
+    "webshell": 20,
+    "anomaly": 21
+  }
+}

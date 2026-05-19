@@ -1,0 +1,2170 @@
+{
+  "analysis_metadata": {
+    "output_directory": "Outputt_ntfs2",
+    "analyzed_at": "2026-02-28T22:03:24.741227",
+    "total_files_analyzed": 4606,
+    "total_suspicious": 42,
+    "artifacts_summary": {
+      "timeline_records": 5800,
+      "usn_records": 0,
+      "shadow_copies": 1,
+      "ads_files": 0,
+      "registry_hives": 0,
+      "security_events": 0,
+      "system_events": 0,
+      "prefetch_files": 0
+    }
+  },
+  "summary": {
+    "critical_count": 0,
+    "high_count": 42,
+    "medium_count": 0,
+    "total_indicators": 82
+  },
+  "critical_findings": [],
+  "high_findings": [
+    {
+      "filename": "RH2Z0AVI",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: RH2Z0AVI, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: RH2Z0AVI, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:10",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "images24CHX7BY.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: images24CHX7BY.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: images24CHX7BY.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:02",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "s[5].json",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: s[5].json, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: s[5].json, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:15:57",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "likes-rest-legacy[1].js",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: likes-rest-legacy[1].js, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: likes-rest-legacy[1].js, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:02",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesS93C0SKE.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesS93C0SKE.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesS93C0SKE.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:06",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesDV4ZLGGB.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesDV4ZLGGB.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesDV4ZLGGB.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:06",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesMGN6NW3L.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesMGN6NW3L.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesMGN6NW3L.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:03",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imgevent[4].js",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imgevent[4].js, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imgevent[4].js, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:07",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "images90Z5G7VT.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: images90Z5G7VT.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: images90Z5G7VT.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:04",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "images3JHTMQJG.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: images3JHTMQJG.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: images3JHTMQJG.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:06",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesJBMOO4X9.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesJBMOO4X9.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesJBMOO4X9.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:05",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesZKUJ3PLY.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesZKUJ3PLY.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesZKUJ3PLY.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:03",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesB5DEP1CS.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesB5DEP1CS.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesB5DEP1CS.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:04",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesLXICC8CR.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesLXICC8CR.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesLXICC8CR.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:03",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "new[1].js",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: new[1].js, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: new[1].js, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:01",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "images6P7EY075.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: images6P7EY075.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: images6P7EY075.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:04",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesTDN5YNA3.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesTDN5YNA3.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesTDN5YNA3.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:03",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "images9S97FKXP.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: images9S97FKXP.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: images9S97FKXP.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:07",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesMMPJZ7WE.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesMMPJZ7WE.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesMMPJZ7WE.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:02",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "images5FJU1VFE.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: images5FJU1VFE.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: images5FJU1VFE.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:04",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesT4WIFEKX.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesT4WIFEKX.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesT4WIFEKX.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:07",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesLQ0FVIYL.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesLQ0FVIYL.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesLQ0FVIYL.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:07",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "fancybox-x[1].png",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: fancybox-x[1].png, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: fancybox-x[1].png, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:15:56",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "IcelandIceberg_GettyRR_157855754_EN-US895885271[1].jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: IcelandIceberg_GettyRR_157855754_EN-US895885271[1].jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: IcelandIceberg_GettyRR_157855754_EN-US895885271[1].jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:15:58",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "ximg-flag-poland.png.pagespeed.ic.4-pnUQ4UXp[1].png",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: ximg-flag-poland.png.pagespeed.ic.4-pnUQ4UXp[1].png, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: ximg-flag-poland.png.pagespeed.ic.4-pnUQ4UXp[1].png, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:15:56",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "images1Y3RRFWV.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: images1Y3RRFWV.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: images1Y3RRFWV.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:03",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesPYTKUYBU.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesPYTKUYBU.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesPYTKUYBU.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:07",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesH9ZVC4AD.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesH9ZVC4AD.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesH9ZVC4AD.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:05",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesBUB3BGTH.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesBUB3BGTH.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesBUB3BGTH.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:06",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesMPUWLQ9T.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesMPUWLQ9T.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesMPUWLQ9T.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:04",
+      "has_prefetch": false,
+      "has_amcache": false
+    }
+  ],
+  "medium_findings": [],
+  "all_suspicious": [
+    {
+      "filename": "RH2Z0AVI",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: RH2Z0AVI, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: RH2Z0AVI, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:10",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "images24CHX7BY.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: images24CHX7BY.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: images24CHX7BY.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:02",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "s[5].json",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: s[5].json, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: s[5].json, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:15:57",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "likes-rest-legacy[1].js",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: likes-rest-legacy[1].js, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: likes-rest-legacy[1].js, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:02",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesS93C0SKE.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesS93C0SKE.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesS93C0SKE.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:06",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesDV4ZLGGB.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesDV4ZLGGB.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesDV4ZLGGB.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:06",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesMGN6NW3L.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesMGN6NW3L.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesMGN6NW3L.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:03",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imgevent[4].js",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imgevent[4].js, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imgevent[4].js, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:07",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "images90Z5G7VT.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: images90Z5G7VT.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: images90Z5G7VT.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:04",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "images3JHTMQJG.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: images3JHTMQJG.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: images3JHTMQJG.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:06",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesJBMOO4X9.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesJBMOO4X9.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesJBMOO4X9.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:05",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesZKUJ3PLY.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesZKUJ3PLY.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesZKUJ3PLY.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:03",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesB5DEP1CS.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesB5DEP1CS.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesB5DEP1CS.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:04",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesLXICC8CR.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesLXICC8CR.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesLXICC8CR.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:03",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "new[1].js",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: new[1].js, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: new[1].js, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:01",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "images6P7EY075.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: images6P7EY075.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: images6P7EY075.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:04",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesTDN5YNA3.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesTDN5YNA3.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesTDN5YNA3.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:03",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "images9S97FKXP.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: images9S97FKXP.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: images9S97FKXP.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:07",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesMMPJZ7WE.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesMMPJZ7WE.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesMMPJZ7WE.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:02",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "images5FJU1VFE.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: images5FJU1VFE.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: images5FJU1VFE.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:04",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesT4WIFEKX.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesT4WIFEKX.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesT4WIFEKX.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:07",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesLQ0FVIYL.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesLQ0FVIYL.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesLQ0FVIYL.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:07",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "fancybox-x[1].png",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: fancybox-x[1].png, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: fancybox-x[1].png, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:15:56",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "IcelandIceberg_GettyRR_157855754_EN-US895885271[1].jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: IcelandIceberg_GettyRR_157855754_EN-US895885271[1].jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: IcelandIceberg_GettyRR_157855754_EN-US895885271[1].jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:15:58",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "ximg-flag-poland.png.pagespeed.ic.4-pnUQ4UXp[1].png",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: ximg-flag-poland.png.pagespeed.ic.4-pnUQ4UXp[1].png, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: ximg-flag-poland.png.pagespeed.ic.4-pnUQ4UXp[1].png, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:15:56",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "images1Y3RRFWV.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: images1Y3RRFWV.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: images1Y3RRFWV.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:03",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesPYTKUYBU.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesPYTKUYBU.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesPYTKUYBU.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:07",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesH9ZVC4AD.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesH9ZVC4AD.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesH9ZVC4AD.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:05",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesBUB3BGTH.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesBUB3BGTH.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesBUB3BGTH.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:06",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesMPUWLQ9T.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesMPUWLQ9T.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesMPUWLQ9T.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:04",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "imagesV5M63B76.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: imagesV5M63B76.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: imagesV5M63B76.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:06",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "GreenBubbles.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: GreenBubbles.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: GreenBubbles.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:17",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "OrangeCircles.jpg",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: OrangeCircles.jpg, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: OrangeCircles.jpg, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:17",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "8A574ED5927B3CEC9626151D220C7448",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: 8A574ED5927B3CEC9626151D220C7448, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: 8A574ED5927B3CEC9626151D220C7448, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:15:56",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "UXAP2N0Q.txt",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: UXAP2N0Q.txt, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: UXAP2N0Q.txt, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:15:57",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "M6C5UJT3.txt",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: M6C5UJT3.txt, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: M6C5UJT3.txt, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:16:01",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "ehome",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: ehome, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: ehome, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2011-04-12 13:58:10",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "rdyboost",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: rdyboost, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: rdyboost, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2009-07-14 11:02:38",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "SECURITY.LOG2",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: SECURITY.LOG2, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: SECURITY.LOG2, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:35:11",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "x86_microsoft-windows-s..ologies-webcontrols_31bf3856ad364e35_7.1.7600.16395_none_39bc056e339474f4",
+      "severity": "HIGH",
+      "score": 150.0,
+      "indicators": [
+        {
+          "rule_id": "zero_timestamp",
+          "severity": "HIGH",
+          "description": "Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation",
+          "evidence": "File: x86_microsoft-windows-s..ologies-webcontrols_31bf3856ad364e35_7.1.7600.16395_none_39bc056e339474f4, Created: 0000-00-00 00:00:00",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": "Valid date after 1970",
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline"
+        },
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation",
+          "evidence": "File: x86_microsoft-windows-s..ologies-webcontrols_31bf3856ad364e35_7.1.7600.16395_none_39bc056e339474f4, Details: File has zero/empty timestamp - strong indicator of manipulation",
+          "timestamp_value": "0000-00-00 00:00:00",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2014-01-25 19:20:30",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "config",
+      "severity": "HIGH",
+      "score": 75.0,
+      "indicators": [
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: MFT Modified (2014-01-30) is 481.0 days BEFORE Created (2015-05-26) - IMPOSSIBLE - CLEAR TAMPERING",
+          "evidence": "File: config, Details: MFT Modified (2014-01-30) is 481.0 days BEFORE Created (2015-05-26) - IMPOSSIBLE - CLEAR TAMPERING",
+          "timestamp_value": "2015-05-26 18:17:22",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:17:22",
+      "has_prefetch": false,
+      "has_amcache": false
+    },
+    {
+      "filename": "SYSTEM.vhd",
+      "severity": "HIGH",
+      "score": 75.0,
+      "indicators": [
+        {
+          "rule_id": "timestamp_order_anomaly",
+          "severity": "HIGH",
+          "description": "Timestamp sequence anomaly: MFT Modified (2014-01-30) is 481.0 days BEFORE Created (2015-05-26) - IMPOSSIBLE - CLEAR TAMPERING",
+          "evidence": "File: SYSTEM.vhd, Details: MFT Modified (2014-01-30) is 481.0 days BEFORE Created (2015-05-26) - IMPOSSIBLE - CLEAR TAMPERING",
+          "timestamp_value": "2015-05-26 18:35:09",
+          "expected_value": null,
+          "time_diff_seconds": 0.0,
+          "source_layer": "Timeline (MACE Analysis)"
+        }
+      ],
+      "si_created": "2015-05-26 18:35:09",
+      "has_prefetch": false,
+      "has_amcache": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+Hidden Structures / ADS for Partition 1
+Image: 2020JimmyWilson.E01
+================================================================================
+
+Potential Alternate Data Streams / Hidden Data:
+r/r 8-128-1:	$BadClus:$Bad
+r/r 25-144-2:	$Extend/$ObjId:$O
+r/r 24-144-3:	$Extend/$Quota:$O
+r/r 24-144-2:	$Extend/$Quota:$Q
+r/r 26-144-2:	$Extend/$Reparse:$R
+r/r 28-128-2:	$Extend/$RmMetadata/$Repair:$Config
+r/r 31-128-4:	$Extend/$RmMetadata/$TxfLog/$Tops:$T
+r/r 9-128-8:	$Secure:$SDS
+r/r 9-144-11:	$Secure:$SDH
+r/r 9-144-14:	$Secure:$SII

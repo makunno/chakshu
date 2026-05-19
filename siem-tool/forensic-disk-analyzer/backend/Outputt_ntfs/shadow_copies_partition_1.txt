@@ -1,0 +1,23 @@
+Shadow Copy / VSS Indicators for Partition 1
+Image: 2020JimmyWilson.E01
+================================================================================
+
+Potential Shadow Copy / VSS Related Files:
+++++++++++ r/r 741-128-1:	bg-zbtn-shadow-mid[1].png
+++++++++++ r/r 887-128-4:	footer_shadow[1].png
+++++++++++ r/r 742-128-1:	bg-zbtn-shadow-right[1].png
+++++++++++ r/r 647-128-1:	bg-zbtn-shadow-right.png.pagespeed.ce.bs0u1wHZrn[1].png
+++++++++++ r/r 890-128-4:	shadow_body770[1].png
+++++++++++ r/r 883-128-4:	shadow_narrowbox[1].png
+++++++++++ r/r 644-128-1:	bg-zbtn-shadow-left.png.pagespeed.ce.x8DkJtUdak[1].png
+++++++++++ r/r 646-128-1:	xbg-zbtn-shadow-mid.png.pagespeed.ic.Dx6BLEpjlx[1].png
+++++++++++ r/r 691-128-1:	nav-shadow-lt.png.pagespeed.ce.hg3j3fJvno[1].png
+++++++++++ r/r 693-128-1:	nav-shadow-rt.png.pagespeed.ce.OEwQNLnNH_[1].png
+++++++++++ r/r 740-128-1:	bg-zbtn-shadow-left[1].png
+++++++++++ r/r 870-128-4:	shadow_sidebox[1].png
+d/d 11-144-4:	$Extend
+r/r 3-128-3:	$Volume
++++++ r/r 4996-128-3:	snapshot.etl
++++++ r/r 5014-128-3:	snapshot.etl
++++++ r/r 5000-128-3:	snapshot.etl
++++++ r/r 5131-128-3:	snapshot.etl

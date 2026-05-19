@@ -1,0 +1,115 @@
+{
+  "log_type": "ssh_auth",
+  "category": "auth",
+  "description": "SSH authentication logs",
+  "version": "1.0.0",
+  "trained_at": "2026-02-03T12:26:15.881599",
+  "feature_names": [
+    "authentication_failures",
+    "failed_login_count",
+    "failed_login_rate",
+    "successful_login_count",
+    "unique_ips",
+    "unique_ips_per_user",
+    "unique_users"
+  ],
+  "features": [
+    "failed_login_rate",
+    "unique_ips",
+    "login_attempts_per_ip",
+    "invalid_user_rate",
+    "success_after_failure",
+    "login_times_entropy",
+    "geographic_distribution",
+    "authentication_failures"
+  ],
+  "attack_patterns": [
+    "bruteforce",
+    "password_spray",
+    "credential_stuffing",
+    "ssh_honeypot"
+  ],
+  "feature_statistics": {
+    "means": [
+      26.241666666666667,
+      26.241666666666667,
+      0.13290416666666668,
+      172.09166666666667,
+      50.108333333333334,
+      6.93472222222222,
+      7.333333333333333
+    ],
+    "stds": [
+      144.94949636068057,
+      144.94949636068057,
+      0.1911727317448681,
+      748.148590116563,
+      10.502425167831058,
+      0.6246005938237105,
+      1.8866180831641248
+    ],
+    "mins": [
+      0.0,
+      0.0,
+      0.0,
+      46.0,
+      37.0,
+      5.5,
+      6.0
+    ],
+    "maxs": [
+      1594.0,
+      1594.0,
+      0.54,
+      8000.0,
+      99.0,
+      9.9,
+      10.0
+    ]
+  },
+  "model": {
+    "type": "isolation_forest",
+    "n_estimators": 100,
+    "contamination": 0.2,
+    "score_range": [
+      -0.3553871842421509,
+      0.1204381630365155
+    ],
+    "score_mean": 0.04925347399463095,
+    "score_std": 0.07699616022938775,
+    "anomaly_threshold": 2.45029690981724e-17,
+    "training_samples": 120,
+    "accuracy": 0.85,
+    "score_distribution": {
+      "min": -0.3553871842421509,
+      "max": 0.1204381630365155,
+      "mean": 0.04925347399463095,
+      "percentile_5": -0.06848952024857323,
+      "percentile_95": 0.1204381630365155
+    }
+  },
+  "attack_labels": {
+    "normal": 0,
+    "bruteforce": 1,
+    "password_spray": 2,
+    "sql_injection": 3,
+    "xss_attack": 4,
+    "path_traversal": 5,
+    "command_injection": 6,
+    "privilege_escalation": 7,
+    "data_exfiltration": 8,
+    "port_scan": 9,
+    "reconnaissance": 10,
+    "malware_activity": 11,
+    "c2_communication": 12,
+    "dos": 13,
+    "ransomware": 14,
+    "log4shell": 15,
+    "insider_threat": 16,
+    "account_takeover": 17,
+    "lateral_movement": 18,
+    "cryptomining": 19,
+    "webshell": 20,
+    "anomaly": 21
+  }
+}

@@ -1,0 +1,134 @@
+Log Files for Partition 1
+Image: 2020JimmyWilson.E01
+Offset: 65664 bytes
+Filesystem: auto
+================================================================================
+
+Log Files Found:
+++++++ r/r 3999-128-4:	UsrClass.dat.LOG1
+++++++ r/r 4000-128-1:	UsrClass.dat.LOG2
++++++++ r/r 1784-128-3:	V01.log
++++++++ r/r 4150-128-3:	V010000E.log
++++++++ r/r 2961-128-3:	V0100016.log
+++++++ r/r 3712-128-1:	WindowsUpdate.log
++++++++++++ r/r 3752-128-3:	edb.log
+++++++++++++ r/r 702-128-3:	edb00001.log
++++++++++++ r/r 3780-128-3:	edb.log
++++++++++++ r/r 3778-128-3:	edb00001.log
+++++++++++ r/r 3734-128-3:	edb.log
++++++++++++ r/r 3743-128-3:	edb.log
+++++++++ r/r 3782-128-3:	edb00001.log
+++++++++++ r/r 116-128-3:	edb00001.log
++++++++++ r/r 3726-128-3:	edb.log
++++++++++ r/r 3725-128-3:	edb00001.log
+++++++ r/r 3756-128-3:	edb.log
+++++++ r/r 3753-128-3:	edb00001.log
+++++++ r/r 194-128-4:	WindowsLiveMail.log
+++++++ r/r 4015-128-3:	edb.log
+++++++ r/r 4014-128-3:	edb00001.log
++++++++ r/r 3694-128-4:	2014-02-16_14-10_e68-hn5bxy94.log
++++++++ r/r 3695-128-4:	2014-02-16_14-10_e98-s8d5oi4a.log
++++++ r/r 193-128-3:	AdobeARM.log
++++++ r/r 4018-128-3:	wmsetup.log
+++++++++ r/r 3274-128-1:	marionette.log
+++ r/r 3952-128-4:	ntuser.dat.LOG1
+++ r/r 3958-128-1:	ntuser.dat.LOG2
++++ r/r 5016-128-3:	edb005EC.log
++++ r/r 4995-128-3:	edb005ED.log
++++ r/r 4349-128-4:	SECURITY.LOG1
++++ r/r 4343-128-4:	BCD-Template.LOG
++++ r/r 4353-128-4:	COMPONENTS.LOG
++++ r/r 4344-128-4:	COMPONENTS.LOG1
++++ r/r 4364-128-1:	COMPONENTS.LOG2
++++ r/r 4350-128-4:	SOFTWARE.LOG1
++++ r/r 4351-128-4:	SYSTEM.LOG1
++++ r/r 4355-128-3:	DEFAULT.LOG
++++ r/r 4347-128-4:	DEFAULT.LOG1
++++ r/r 4365-128-1:	DEFAULT.LOG2
++++ r/r 4357-128-3:	SAM.LOG
++++ r/r 4348-128-4:	SAM.LOG1
++++ r/r 4366-128-1:	SAM.LOG2
++++ r/r 4359-128-3:	SECURITY.LOG
++++ r/- * 0:	SECURITY.LOG2
++++ r/r 4361-128-3:	SOFTWARE.LOG
++++ r/r 4368-128-1:	SOFTWARE.LOG2
++++ r/r 4363-128-3:	SYSTEM.LOG
++++ r/r 4369-128-1:	SYSTEM.LOG2
++++ r/r 4367-128-1:	SECURITY.LOG2
++++ -/r * 5669-128-4:	BCD-Template.LOG
++++ -/r * 5670-128-4:	COMPONENTS.LOG1
++++ -/r * 5673-128-4:	DEFAULT.LOG1
++++ -/r * 5674-128-4:	SAM.LOG1
++++ -/r * 5675-128-4:	SECURITY.LOG1
++++ -/r * 5676-128-4:	SOFTWARE.LOG1
++++ -/r * 5677-128-4:	SYSTEM.LOG1
+++++ r/r 5763-128-1:	httperr1.log
+++++ r/r 4302-128-4:	Application.evtx
+++++ r/r 4309-128-4:	HardwareEvents.evtx
+++++ r/r 4308-128-4:	Internet Explorer.evtx
+++++ r/r 4307-128-4:	Key Management Service.evtx
+++++ r/r 4306-128-4:	Media Center.evtx
+++++ r/r 4292-128-4:	Microsoft-Windows-Diagnosis-PLA%4Operational.evtx
+++++ r/r 4289-128-4:	Microsoft-Windows-Diagnosis-Scheduled%4Operational.evtx
+++++ r/r 4299-128-4:	Microsoft-Windows-Diagnosis-Scripted%4Admin.evtx
+++++ r/r 4300-128-4:	Microsoft-Windows-Diagnosis-Scripted%4Operational.evtx
+++++ r/r 4245-128-4:	Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational.evtx
+++++ r/r 4339-128-4:	Microsoft-Windows-UAC-FileVirtualization%4Operational.evtx
+++++ r/r 4310-128-4:	Microsoft-Windows-User Profile Service%4Operational.evtx
+++++ r/r 4293-128-4:	Microsoft-Windows-VDRVROOT%4Operational.evtx
+++++ r/r 4294-128-4:	Microsoft-Windows-VHDMP%4Operational.evtx
+++++ r/r 4313-128-4:	Microsoft-Windows-Windows Defender%4Operational.evtx
+++++ r/r 4314-128-4:	Microsoft-Windows-Windows Defender%4WHC.evtx
+++++ r/r 4333-128-4:	Microsoft-Windows-Windows Firewall With Advanced Security%4ConnectionSecurity.evtx
+++++ r/r 4328-128-4:	Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx
+++++ r/r 4287-128-4:	Microsoft-Windows-WindowsBackup%4ActionCenter.evtx
+++++ r/r 4256-128-4:	Microsoft-Windows-WindowsSystemAssessmentTool%4Operational.evtx
+++++ r/r 4223-128-4:	Microsoft-Windows-WindowsUpdateClient%4Operational.evtx
+++++ r/r 4224-128-4:	Microsoft-Windows-Winlogon%4Operational.evtx
+++++ r/r 4303-128-4:	Security.evtx
+++++ r/r 4222-128-4:	Setup.evtx
+++++ r/r 4301-128-4:	System.evtx
+++++ r/r 4305-128-4:	Windows PowerShell.evtx
+++++ r/r 4336-128-4:	Microsoft-Windows-DiskDiagnosticDataCollector%4Operational.evtx
+++++ r/r 4290-128-4:	Microsoft-Windows-DriverFrameworks-UserMode%4Operational.evtx
+++++ r/r 4318-128-4:	Microsoft-Windows-GroupPolicy%4Operational.evtx
+++++ r/r 4225-128-4:	Microsoft-Windows-HomeGroup Provider Service%4Operational.evtx
+++++ r/r 4296-128-4:	Microsoft-Windows-Kernel-EventTracing%4Admin.evtx
+++++ r/r 4315-128-4:	Microsoft-Windows-Kernel-Power%4Thermal-Operational.evtx
+++++ r/r 4321-128-4:	Microsoft-Windows-Kernel-StoreMgr%4Operational.evtx
+++++ r/r 4316-128-4:	Microsoft-Windows-Kernel-WHEA%4Errors.evtx
+++++ r/r 4317-128-4:	Microsoft-Windows-Kernel-WHEA%4Operational.evtx
+++++ r/r 4331-128-4:	Microsoft-Windows-Known Folders API Service.evtx
+++++ r/r 4298-128-4:	Microsoft-Windows-LanguagePackSetup%4Operational.evtx
+++++ r/r 4329-128-4:	Microsoft-Windows-NCSI%4Operational.evtx
+++++ r/r 4276-128-4:	Microsoft-Windows-NetworkAccessProtection%4Operational.evtx
+++++ r/r 4288-128-4:	Microsoft-Windows-NetworkAccessProtection%4WHC.evtx
+++++ r/r 4295-128-4:	Microsoft-Windows-NetworkLocationWizard%4Operational.evtx
+++++ r/r 4319-128-4:	Microsoft-Windows-OfflineFiles%4Operational.evtx
+++++ r/r 4255-128-4:	Microsoft-Windows-PrintService%4Admin.evtx
+++++ r/r 4330-128-4:	Microsoft-Windows-ReadyBoost%4Operational.evtx
+++++ r/r 4297-128-4:	Microsoft-Windows-ReliabilityAnalysisComponent%4Operational.evtx
+++++ r/r 4304-128-4:	Microsoft-Windows-Resource-Exhaustion-Detector%4Operational.evtx
+++++ r/r 4325-128-4:	Microsoft-Windows-Application-Experience%4Problem-Steps-Recorder.evtx
+++++ r/r 4311-128-4:	Microsoft-Windows-Dhcpv6-Client%4Admin.evtx
+++++ r/r 4322-128-4:	Microsoft-Windows-Application-Experience%4Program-Compatibility-Assistant.evtx
+++++ r/r 4291-128-4:	Microsoft-Windows-Diagnostics-Performance%4Operational.evtx
+++++ r/r 4267-128-4:	Microsoft-Windows-MUI%4Admin.evtx
+++++ r/r 4226-128-4:	Microsoft-Windows-TerminalServices-LocalSessionManager%4Admin.evtx
+++++ r/r 4259-128-4:	Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx
+++++ r/r 4326-128-4:	Microsoft-Windows-Application-Experience%4Program-Compatibility-Troubleshooter.evtx
+++++ r/r 4324-128-4:	Microsoft-Windows-Application-Experience%4Program-Inventory.evtx
+++++ r/r 4323-128-4:	Microsoft-Windows-Application-Experience%4Program-Telemetry.evtx
+++++ r/r 4334-128-4:	Microsoft-Windows-Bits-Client%4Operational.evtx
+++++ r/r 4320-128-4:	Microsoft-Windows-BranchCacheSMB%4Operational.evtx
+++++ r/r 4338-128-4:	Microsoft-Windows-CodeIntegrity%4Operational.evtx
+++++ r/r 4312-128-4:	Microsoft-Windows-Dhcp-Client%4Admin.evtx
+++++ r/r 4327-128-4:	Microsoft-Windows-Diagnosis-DPS%4Operational.evtx
+++++ r/r 4260-128-4:	Microsoft-Windows-MUI%4Operational.evtx
+++++ r/r 4332-128-4:	Microsoft-Windows-NetworkProfile%4Operational.evtx
+++++ r/r 4335-128-4:	Microsoft-Windows-Resource-Exhaustion-Resolver%4Operational.evtx
+++++ r/r 4337-128-4:	Microsoft-Windows-RestartManager%4Operational.evtx
+++++ -/r * 5764-128-4:	Microsoft-Windows-Winlogon%4Operational.evtx
+++++ -/r * 5765-128-1:	Microsoft-Windows-HomeGroup Provider Service%4Operational.evtx
+++ r/r 4247-128-1:	poqexec.log
+++ -/d * 4752-144-1:	System.IO.Log

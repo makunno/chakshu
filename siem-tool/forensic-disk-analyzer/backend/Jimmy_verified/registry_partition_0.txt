@@ -1,0 +1,19 @@
+Registry Hives for Partition 0
+Image: /home/utsav/Github/imageProcessor/2020JimmyWilson.E01
+Offset: 65664 bytes
+Filesystem: auto
+================================================================================
+
+Registry Hives Found:
+++ r/r 3960-128-4:	NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+++++++ r/r 3998-128-3:	UsrClass.dat
+++++++ r/r 3999-128-4:	UsrClass.dat.LOG1
+++++++ r/r 4000-128-1:	UsrClass.dat.LOG2
+++++++ r/r 4001-128-4:	UsrClass.dat{30f0885a-85ed-11e3-b557-001641e7bb6b}.TM.blf
+++++++ r/r 4002-128-4:	UsrClass.dat{30f0885a-85ed-11e3-b557-001641e7bb6b}.TMContainer00000000000000000001.regtrans-ms
+++++++ r/r 4003-128-4:	UsrClass.dat{30f0885a-85ed-11e3-b557-001641e7bb6b}.TMContainer00000000000000000002.regtrans-ms
+++ r/r 90-128-3:	NTUSER.DAT
+++ r/r 3952-128-4:	ntuser.dat.LOG1
+++ r/r 3958-128-1:	ntuser.dat.LOG2
+++ r/r 3979-128-4:	NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+++ r/r 3975-128-4:	NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms

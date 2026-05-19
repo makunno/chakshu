@@ -1,0 +1,107 @@
+
+        <div class="ai-report-container p-4">
+            <h3 class="text-primary mb-4"><i class="fas fa-robot me-2"></i>AI Forensic Intelligence Analysis (GLM-5)</h3>
+            
+            <div class="alert alert-danger mb-4">
+                <h4 class="alert-heading">Overall Risk: CRITICAL</h4>
+                <p class="mb-0">The forensic analysis reveals a systematic pattern of artifact destruction consistent with anti-forensic activities. Critical Windows artifacts including the USN Journal, Event Logs, System Volume Information, and multiple Registry hives are missing. This pattern strongly suggests deliberate evidence destruction using administrative tools or anti-forensic software. The layered timestomping correlation could not be performed due to USN Journal destruction, which itself is evidence of anti-forensic activity. The system shows indicators of comprehensive cleanup operations that have eliminated most standard forensic artifacts.</p>
+            </div>
+
+            <div class="row">
+        
+                <div class="col-md-6 mb-3">
+                    <div class="card h-100 border-start border-4 border-danger">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase font-weight-bold" style="font-size: 0.9rem;">
+                                usn_journal_destruction
+                            </h5>
+                            <p class="card-text"><strong>Evidence:</strong> USN Journal missing or corrupted</p>
+                            <p class="card-text text-muted" style="font-size: 0.85rem;">The USN Journal ($UsnJrnl:$J) is a persistent NTFS artifact that records all file system changes. Its absence indicates deliberate destruction using administrative tools (fsutil usn deletejournal), which is a documented anti-forensic technique. This prevents timeline reconstruction and hides file system activity.</p>
+                            <div class="mt-2">
+                                <span class="badge bg-danger">CRITICAL</span>
+                                <span class="ms-2 text-primary" style="font-size: 0.8rem;">Confidence: 95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-6 mb-3">
+                    <div class="card h-100 border-start border-4 border-warning">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase font-weight-bold" style="font-size: 0.9rem;">
+                                event_log_clearing
+                            </h5>
+                            <p class="card-text"><strong>Evidence:</strong> Zero .evtx files found on the system</p>
+                            <p class="card-text text-muted" style="font-size: 0.85rem;">Windows systems maintain extensive event logs by default. Complete absence of event logs indicates deliberate clearing, consistent with MITRE ATT&amp;CK T1070.001 (Indicator Removal: Clear Windows Event Logs). This eliminates security auditing, user activity, and system event history.</p>
+                            <div class="mt-2">
+                                <span class="badge bg-warning">HIGH</span>
+                                <span class="ms-2 text-primary" style="font-size: 0.8rem;">Confidence: 90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-6 mb-3">
+                    <div class="card h-100 border-start border-4 border-warning">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase font-weight-bold" style="font-size: 0.9rem;">
+                                vss_destruction
+                            </h5>
+                            <p class="card-text"><strong>Evidence:</strong> System Volume Information directory not present</p>
+                            <p class="card-text text-muted" style="font-size: 0.85rem;">System Volume Information is a protected system folder containing Volume Shadow Copies. Its deletion requires elevated privileges and indicates deliberate destruction of backup/restore points that could contain forensic evidence. Consistent with MITRE ATT&amp;CK T1490 (Inhibit System Recovery).</p>
+                            <div class="mt-2">
+                                <span class="badge bg-warning">HIGH</span>
+                                <span class="ms-2 text-primary" style="font-size: 0.8rem;">Confidence: 85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-6 mb-3">
+                    <div class="card h-100 border-start border-4 border-warning">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase font-weight-bold" style="font-size: 0.9rem;">
+                                registry_artifact_destruction
+                            </h5>
+                            <p class="card-text"><strong>Evidence:</strong> Only NTUSER.DAT present; SAM, SECURITY, SOFTWARE, SYSTEM hives missing</p>
+                            <p class="card-text text-muted" style="font-size: 0.85rem;">System registry hives contain critical forensic data including user accounts, installed software, system configuration, and security settings. Their absence while NTUSER remains suggests targeted destruction of system-level artifacts while preserving user-specific data.</p>
+                            <div class="mt-2">
+                                <span class="badge bg-warning">HIGH</span>
+                                <span class="ms-2 text-primary" style="font-size: 0.8rem;">Confidence: 80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-6 mb-3">
+                    <div class="card h-100 border-start border-4 border-info">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase font-weight-bold" style="font-size: 0.9rem;">
+                                recycle_bin_destruction
+                            </h5>
+                            <p class="card-text"><strong>Evidence:</strong> Recycle Bin not present on the system</p>
+                            <p class="card-text text-muted" style="font-size: 0.85rem;">The $Recycle.Bin folder is automatically created by Windows and contains metadata about deleted files. Its absence is unusual for a normal Windows system and may indicate anti-forensic cleaning or use of secure deletion tools.</p>
+                            <div class="mt-2">
+                                <span class="badge bg-info">MEDIUM</span>
+                                <span class="ms-2 text-primary" style="font-size: 0.8rem;">Confidence: 70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-6 mb-3">
+                    <div class="card h-100 border-start border-4 border-info">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase font-weight-bold" style="font-size: 0.9rem;">
+                                orphaned_file_remnant
+                            </h5>
+                            <p class="card-text"><strong>Evidence:</strong> 1 orphaned file detected with no parent directory</p>
+                            <p class="card-text text-muted" style="font-size: 0.85rem;">Orphaned files indicate directory structure manipulation or destruction. The file may be a remnant of deleted evidence or a file whose parent directory was destroyed during cleanup operations.</p>
+                            <div class="mt-2">
+                                <span class="badge bg-info">MEDIUM</span>
+                                <span class="ms-2 text-primary" style="font-size: 0.8rem;">Confidence: 65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div>

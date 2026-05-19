@@ -1,0 +1,107 @@
+{
+  "log_type": "postgres_error",
+  "category": "database",
+  "description": "PostgreSQL error logs",
+  "version": "1.0.0",
+  "trained_at": "2026-02-03T12:26:20.027671",
+  "feature_names": [
+    "abort_count",
+    "connection_count",
+    "critical_rate",
+    "error_count",
+    "error_rate",
+    "slow_query_count"
+  ],
+  "features": [
+    "error_count",
+    "fatal_count",
+    "panic_count",
+    "slow_query_rate",
+    "connection_attempts",
+    "authentication_failures",
+    "deadlock_count"
+  ],
+  "attack_patterns": [
+    "sql_injection",
+    "database_attack"
+  ],
+  "feature_statistics": {
+    "means": [
+      0.0,
+      1.05,
+      0.00135,
+      11.658333333333333,
+      0.06393333333333334,
+      0.0
+    ],
+    "stds": [
+      0.001,
+      11.455147720367513,
+      0.015726761354758197,
+      59.06685249156703,
+      0.09416864040843118,
+      0.001
+    ],
+    "mins": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maxs": [
+      0.0,
+      126.0,
+      0.162,
+      648.0,
+      0.27,
+      0.0
+    ]
+  },
+  "model": {
+    "type": "isolation_forest",
+    "n_estimators": 100,
+    "contamination": 0.2,
+    "score_range": [
+      -0.3908297614546957,
+      0.06668126478722847
+    ],
+    "score_mean": 0.03276322815889117,
+    "score_std": 0.06532911990189004,
+    "anomaly_threshold": 0.0,
+    "training_samples": 120,
+    "accuracy": 0.85,
+    "score_distribution": {
+      "min": -0.3908297614546957,
+      "max": 0.06668126478722847,
+      "mean": 0.03276322815889117,
+      "percentile_5": -0.06716549323898365,
+      "percentile_95": 0.06668126478722847
+    }
+  },
+  "attack_labels": {
+    "normal": 0,
+    "bruteforce": 1,
+    "password_spray": 2,
+    "sql_injection": 3,
+    "xss_attack": 4,
+    "path_traversal": 5,
+    "command_injection": 6,
+    "privilege_escalation": 7,
+    "data_exfiltration": 8,
+    "port_scan": 9,
+    "reconnaissance": 10,
+    "malware_activity": 11,
+    "c2_communication": 12,
+    "dos": 13,
+    "ransomware": 14,
+    "log4shell": 15,
+    "insider_threat": 16,
+    "account_takeover": 17,
+    "lateral_movement": 18,
+    "cryptomining": 19,
+    "webshell": 20,
+    "anomaly": 21
+  }
+}

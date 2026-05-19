@@ -1,0 +1,83 @@
+Filename,Severity,Score,Rule ID,Description,Timestamp Value,Expected Value,Time Diff (Days),Source Layer
+RH2Z0AVI,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+RH2Z0AVI,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+images24CHX7BY.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+images24CHX7BY.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+s[5].json,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+s[5].json,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+likes-rest-legacy[1].js,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+likes-rest-legacy[1].js,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesS93C0SKE.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesS93C0SKE.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesDV4ZLGGB.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesDV4ZLGGB.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesMGN6NW3L.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesMGN6NW3L.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imgevent[4].js,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imgevent[4].js,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+images90Z5G7VT.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+images90Z5G7VT.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+images3JHTMQJG.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+images3JHTMQJG.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesJBMOO4X9.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesJBMOO4X9.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesZKUJ3PLY.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesZKUJ3PLY.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesB5DEP1CS.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesB5DEP1CS.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesLXICC8CR.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesLXICC8CR.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+new[1].js,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+new[1].js,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+images6P7EY075.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+images6P7EY075.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesTDN5YNA3.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesTDN5YNA3.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+images9S97FKXP.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+images9S97FKXP.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesMMPJZ7WE.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesMMPJZ7WE.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+images5FJU1VFE.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+images5FJU1VFE.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesT4WIFEKX.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesT4WIFEKX.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesLQ0FVIYL.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesLQ0FVIYL.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+fancybox-x[1].png,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+fancybox-x[1].png,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+IcelandIceberg_GettyRR_157855754_EN-US895885271[1].jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+IcelandIceberg_GettyRR_157855754_EN-US895885271[1].jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+ximg-flag-poland.png.pagespeed.ic.4-pnUQ4UXp[1].png,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+ximg-flag-poland.png.pagespeed.ic.4-pnUQ4UXp[1].png,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+images1Y3RRFWV.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+images1Y3RRFWV.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesPYTKUYBU.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesPYTKUYBU.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesH9ZVC4AD.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesH9ZVC4AD.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesBUB3BGTH.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesBUB3BGTH.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesMPUWLQ9T.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesMPUWLQ9T.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+imagesV5M63B76.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+imagesV5M63B76.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+GreenBubbles.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+GreenBubbles.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+OrangeCircles.jpg,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+OrangeCircles.jpg,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+8A574ED5927B3CEC9626151D220C7448,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+8A574ED5927B3CEC9626151D220C7448,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+UXAP2N0Q.txt,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+UXAP2N0Q.txt,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+M6C5UJT3.txt,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+M6C5UJT3.txt,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+ehome,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+ehome,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+rdyboost,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+rdyboost,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+SECURITY.LOG2,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+SECURITY.LOG2,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+x86_microsoft-windows-s..ologies-webcontrols_31bf3856ad364e35_7.1.7600.16395_none_39bc056e339474f4,HIGH,150.0,zero_timestamp,Zero/empty timestamp (Windows epoch 1601) - indicates file timestamp manipulation,0000-00-00 00:00:00,Valid date after 1970,,Timeline
+x86_microsoft-windows-s..ologies-webcontrols_31bf3856ad364e35_7.1.7600.16395_none_39bc056e339474f4,HIGH,150.0,timestamp_order_anomaly,Timestamp sequence anomaly: File has zero/empty timestamp - strong indicator of manipulation,0000-00-00 00:00:00,,,Timeline (MACE Analysis)
+config,HIGH,75.0,timestamp_order_anomaly,Timestamp sequence anomaly: MFT Modified (2014-01-30) is 481.0 days BEFORE Created (2015-05-26) - IMPOSSIBLE - CLEAR TAMPERING,2015-05-26 18:17:22,,,Timeline (MACE Analysis)
+SYSTEM.vhd,HIGH,75.0,timestamp_order_anomaly,Timestamp sequence anomaly: MFT Modified (2014-01-30) is 481.0 days BEFORE Created (2015-05-26) - IMPOSSIBLE - CLEAR TAMPERING,2015-05-26 18:35:09,,,Timeline (MACE Analysis)

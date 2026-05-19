@@ -1,0 +1,260 @@
+USN Journal Files for Partition 0
+Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/jo-favorites-usb-2009-12-11.E01
+Offset: 63 bytes
+Filesystem: auto
+================================================================================
+
+No USN journal files found.
+
+Full file list for reference:
+r/r 3:	JO FAVORITE (Volume Label Entry)
+r/r 5:	._.Trashes
+r/r 6:	DSC00009.JPG
+d/d 8:	.Trashes
++ d/d * 133:	_02
++ r/r * 135:	._502
++ r/r * 136:	_502~1
++ r/r * 138:	._501
+d/d * 10:	.fseventsd
+d/d 13:	.Spotlight-V100
++ d/d 646:	Store-V1
+++ r/r 775:	VolumeConfig.plist
+++ d/d 777:	Stores
++++ d/d 1544:	BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7
+++++ r/r 1669:	psid.db
+++++ r/r 1672:	tmp.SnowLeopard
+++++ r/r 1674:	indexState
+++++ r/r 1677:	0.indexDirectory
+++++ r/r 1680:	0.indexCompactDirectory
+++++ r/r 1682:	0.indexArrays
+++++ r/r 1684:	0.indexHead
+++++ r/r 1687:	0.shadowIndexHead
+++++ r/r 1689:	0.indexIds
+++++ r/r 1691:	0.indexGroups
+++++ r/r 1694:	0.shadowIndexGroups
+++++ r/r * 1695:	_~1.SHA
+++++ r/r 1698:	live.0.indexGroups
+++++ r/r 1701:	live.0.indexUpdates
+++++ r/r 1704:	0.indexUpdates
+++++ r/r 1707:	0.indexPostings
+++++ r/r 1710:	0.indexPositions
+++++ r/r 1712:	permStore
+++++ r/r * 1713:	_~1.IND
+++++ r/r * 1716:	1.indexPostings
+++++ r/r * 1718:	remapping0
+++++ r/r * 1721:	1.indexPositions
+++++ r/r * 1724:	2.indexCompactDirectory
+++++ r/r * 1726:	1.indexArrays
+++++ r/r * 1729:	1.shadowIndexHead
+++++ r/r * 1731:	2.indexHead
+++++ r/r * 1733:	1.indexIds
+++++ r/r * 1736:	1.indexCompactDirectory
+++++ r/r * 1737:	_IVE0~11.IND
+++++ r/r 1738:	store.db
+++++ r/r 1740:	.store.db
+++++ r/r * 1742:	0.indexHead
+++++ r/r 1744:	journalLive
+++++ r/r 1747:	journalExclusion
+++++ r/r 1749:	journalSync
+++++ r/r 1752:	live.0.indexPositions
+++++ r/r * 1754:	2.indexIds
+++++ r/r 1757:	live.0.shadowIndexHead
+++++ r/r 1760:	live.0.indexDirectory
+++++ r/r 1763:	live.0.shadowIndexTermIds
+++++ r/r * 1765:	1.indexHead
+++++ r/r * 1768:	2.shadowIndexHead
+++++ r/r * 1771:	0.shadowIndexGroups
+++++ r/r * 1774:	tmp.merge.0.indexHead
+++++ r/r 1777:	live.0.indexPositionTable
+++++ r/r 1780:	live.0.indexTermIds
+++++ r/r 1783:	live.0.shadowIndexArrays
+++++ r/r 1786:	live.0.indexArrays
+++++ r/r 1789:	live.0.indexHead
+++++ r/r 1792:	live.0.indexIds
+++++ r/r * 1794:	2.indexArrays
+++++ r/r * 19971:	_~2.IND
+++++ r/r 19973:	store.updates
+++++ r/r 19975:	shutdown_time
+++++ r/r * 19978:	tmp.merge.0.indexIds
+++++ r/r * 19980:	2.shadowIndex
+++++ r/r * 19982:	2.indexGroups
+++++ r/r * 19985:	2.shadowIndexGroups
+++++ r/r * 19988:	2.indexDirectory
+++++ r/r * 19991:	2.indexPostings
+++++ r/r * 19994:	tmp.merge.0.indexGroups
+++++ r/r * 19995:	_~10.IND
+++++ r/r 19999:	live.0.shadowIndexPositionTable
+++++ r/r 20003:	live.0.shadowIndexCompactDirectory
+++++ r/r * 20006:	tmp.merge.0.indexPostings
+++++ r/r * 20008:	2.indexPostin
+++++ r/r 20012:	live.0.indexCompactDirectory
+++++ r/r 20015:	live.0.indexPostings
+++++ r/r 20019:	live.0.shadowIndexDirectory
+++++ r/r 20022:	live.0.shadowIndexGroups
+++++ r/r * 20025:	tmp.merge.0.indexTermIds
+++++ r/r * 20028:	tmp.merge.0.indexPositions
+++++ r/r * 20032:	tmp.merge.0.shadowIndexHead
+++++ r/r * 20035:	tmp.merge.0.indexDirectory
+++++ r/r * 20039:	tmp.merge.0.indexCompactDirectory
+++++ r/r * 20042:	tmp.merge.0.indexArrays
+++++ r/r * 20045:	tmp.merge.0.indexUpdates
+++++ r/r * 20049:	tmp.merge.0.shadowIndexGroups
+++++ r/r * 20050:	_MP2CM~2.IDX
+++++ r/r * 20051:	_MP1CM~1.NEW
+++++ r/r * 20055:	tmp.1.cmpt..mds.33.compactPayloads1.idx
+++++ r/r * 20059:	tmp.1.cmpt..mds.33.compactPayloads2.idx
+d/d 15:	HighQuality
++ r/r 13957:	DSC00003.JPG
++ r/r 13958:	DSC00004.JPG
++ r/r 13959:	DSC00005.JPG
++ r/r 13960:	DSC00006.JPG
++ r/r 13961:	DSC00007.JPG
++ r/r 13962:	DSC00008.JPG
++ r/r 13963:	DSC00009.JPG
++ r/r 13964:	DSC00010.JPG
++ r/r 13965:	DSC00011.JPG
++ r/r 13966:	DSC00012.JPG
++ r/r 13967:	DSC00013.JPG
++ r/r 13968:	DSC00014.JPG
++ r/r 13969:	DSC00015.JPG
++ r/r 13970:	DSC00016.JPG
++ r/r 13971:	DSC00017.JPG
++ r/r 13972:	DSC00018.JPG
++ r/r 13973:	DSC00019.JPG
++ r/r 13974:	DSC00020.JPG
++ r/r 13975:	DSC00021.JPG
++ r/r 13976:	DSC00022.JPG
++ r/r 13977:	DSC00023.JPG
++ r/r 13978:	DSC00024.JPG
++ r/r 13979:	DSC00025.JPG
++ r/r 13980:	DSC00026.JPG
++ r/r 13981:	DSC00027.JPG
++ r/r 13982:	DSC00028.JPG
++ r/r 13983:	DSC00029.JPG
++ r/r 13984:	DSC00030.JPG
++ r/r 13985:	DSC00031.JPG
++ r/r 13986:	DSC00032.JPG
++ r/r 13987:	DSC00033.JPG
++ r/r 13988:	DSC00034.JPG
++ r/r 13989:	DSC00035.JPG
++ r/r 13990:	DSC00036.JPG
++ r/r 13991:	DSC00037.JPG
++ r/r 13992:	DSC00038.JPG
++ r/r 13993:	DSC00039.JPG
++ r/r 13994:	DSC00040.JPG
++ r/r 13995:	DSC00041.JPG
++ r/r 13996:	DSC00042.JPG
++ r/r 13997:	DSC00043.JPG
++ r/r 13998:	DSC00044.JPG
++ r/r 13999:	DSC00045.JPG
++ r/r 14000:	DSC00046.JPG
++ r/r 14001:	DSC00047.JPG
++ r/r 14002:	DSC00048.JPG
++ r/r 14003:	DSC00049.JPG
++ r/r 14004:	DSC00050.JPG
++ r/r 14005:	DSC00051.JPG
++ r/r 14006:	DSC00052.JPG
++ r/r 14007:	DSC00053.JPG
++ r/r 14008:	DSC00054.JPG
++ r/r 14009:	DSC00055.JPG
++ r/r 14010:	DSC00056.JPG
++ r/r 14011:	DSC00057.JPG
++ r/r 14012:	DSC00058.JPG
++ r/r 14013:	DSC00059.JPG
++ r/r 14014:	DSC00060.JPG
++ r/r 14015:	DSC00061.JPG
++ r/r 14016:	DSC00062.JPG
++ r/r 14017:	DSC00063.JPG
++ r/r 14018:	DSC00064.JPG
++ r/r 14019:	DSC00065.JPG
++ r/r 14020:	DSC00066.JPG
++ r/r 14021:	DSC00067.JPG
++ r/r 14022:	DSC00068.JPG
++ r/r 14023:	DSC00069.JPG
++ r/r 14024:	DSC00070.JPG
++ r/r 14025:	DSC00071.JPG
++ r/r 14026:	DSC00072.JPG
++ r/r 14027:	DSC00073.JPG
++ r/r 14028:	DSC00074.JPG
++ r/r 14029:	DSC00075.JPG
++ r/r 14030:	DSC00076.JPG
++ r/r 14031:	DSC00077.JPG
++ r/r 14032:	DSC00078.JPG
++ r/r 14033:	DSC00079.JPG
++ r/r 14034:	DSC00080.JPG
++ r/r 14035:	DSC00081.JPG
++ r/r 14036:	DSC00082.JPG
++ r/r 14037:	DSC00083.JPG
++ r/r 14038:	DSC00084.JPG
+r/r 16:	DSC00010.JPG
+r/r 17:	DSC00011.JPG
+r/r 18:	DSC00012.JPG
+r/r 19:	DSC00013.JPG
+r/r 20:	DSC00014.JPG
+r/r 21:	DSC00015.JPG
+r/r 22:	DSC00016.JPG
+r/r 23:	DSC00017.JPG
+r/r 24:	DSC00018.JPG
+r/r 25:	DSC00019.JPG
+r/r 26:	DSC00020.JPG
+r/r 27:	DSC00021.JPG
+r/r 28:	DSC00022.JPG
+r/r 29:	DSC00023.JPG
+r/r 30:	DSC00024.JPG
+r/r 31:	DSC00025.JPG
+r/r 32:	DSC00026.JPG
+r/r 33:	DSC00027.JPG
+r/r 34:	DSC00028.JPG
+r/r 35:	DSC00029.JPG
+r/r 36:	DSC00030.JPG
+r/r 37:	DSC00031.JPG
+r/r 38:	DSC00032.JPG
+r/r 39:	DSC00033.JPG
+r/r 40:	DSC00034.JPG
+r/r 41:	DSC00035.JPG
+r/r 42:	DSC00036.JPG
+r/r 43:	DSC00037.JPG
+r/r 44:	DSC00038.JPG
+r/r 45:	DSC00039.JPG
+r/r 46:	DSC00040.JPG
+r/r 47:	DSC00041.JPG
+r/r 48:	DSC00042.JPG
+r/r 49:	DSC00043.JPG
+r/r 50:	DSC00044.JPG
+r/r 51:	DSC00045.JPG
+r/r 52:	DSC00046.JPG
+r/r 53:	DSC00047.JPG
+r/r 54:	DSC00048.JPG
+r/r 55:	DSC00049.JPG
+r/r 56:	DSC00050.JPG
+r/r 57:	DSC00051.JPG
+r/r * 59:	Cat.m4v
+d/d * 60:	_NTITL~1
+d/d 62:	Videos
++ r/r 3335:	KittyMontage.mov
++ r/r 3338:	._KittyMontage.mov
++ r/r 3341:	MontereyKitty.m4v
++ r/r 3344:	._MontereyKitty.m4v
++ r/r 3347:	MontereyKittyHQ.m4v
++ r/r 3350:	._MontereyKittyHQ.m4v
++ r/r 3353:	TiggerTheCat.m4v
++ r/r 3356:	._TiggerTheCat.m4v
++ r/r 3358:	Cat.m4v
++ r/r 3360:	._Cat.m4v
++ r/r 3362:	Cat.mov
++ r/r 3364:	._Cat.mov
+r/r * 64:	._Cat.m4v
+r/r * 66:	Cat.mov
+r/r * 68:	._Cat.mov
+r/r * 71:	KittyMontage.mov
+r/r * 74:	._KittyMontage.mov
+r/r * 77:	MontereyKitty.m4v
+r/r * 80:	._MontereyKitty.m4v
+r/r * 83:	MontereyKittyHQ.m4v
+r/r * 86:	._MontereyKittyHQ.m4v
+r/r * 89:	TiggerTheCat.m4v
+r/r * 92:	._TiggerTheCat.m4v
+v/v 32701667:	$MBR
+v/v 32701668:	$FAT1
+v/v 32701669:	$FAT2
+V/V 32701670:	$OrphanFiles

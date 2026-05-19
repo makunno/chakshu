@@ -1,0 +1,101 @@
+{
+  "image": "/home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/2020JimmyWilson.E01",
+  "partitions": [
+    {
+      "slot": "004:",
+      "start": "0000000034",
+      "desc": "Microsoft reserved partition"
+    },
+    {
+      "slot": "006:",
+      "start": "0000065664",
+      "desc": "Basic data partition"
+    }
+  ],
+  "extracted_files": {
+    "mft": [
+      "mft_partition_0.txt",
+      "mft_partition_1.txt"
+    ],
+    "usn_journals": [
+      "usn_journal_partition_0.txt",
+      "usn_journal_partition_1.txt"
+    ],
+    "registry": [
+      "registry_partition_0.txt",
+      "registry_partition_1.txt"
+    ],
+    "logs": [
+      "logs_partition_0.txt",
+      "logs_partition_1.txt"
+    ],
+    "timelines": [
+      "timeline_partition_0.txt",
+      "timeline_partition_1.txt"
+    ],
+    "shadow_copies": [
+      "shadow_copies_partition_0.txt",
+      "shadow_copies_partition_1.txt"
+    ],
+    "hidden_structures": [
+      "hidden_structures_partition_0.txt",
+      "hidden_structures_partition_1.txt"
+    ],
+    "timestomp": [
+      "timestomp_indicators_partition_0.txt",
+      "timestomp_indicators_partition_1.txt"
+    ],
+    "raw_usn_journal": [
+      "raw_usn_journal_partition_0.bin",
+      "raw_usn_journal_partition_1.bin"
+    ],
+    "raw_logfile": [
+      "raw_logfile_partition_0.bin",
+      "raw_logfile_partition_1.bin"
+    ],
+    "raw_volume": [
+      "raw_volume_partition_0.bin",
+      "raw_volume_partition_1.bin"
+    ],
+    "raw_boot": [
+      "raw_boot_partition_0.bin",
+      "raw_boot_partition_1.bin"
+    ],
+    "raw_mft": [
+      "raw_mft_partition_0.bin",
+      "raw_mft_partition_1.bin"
+    ]
+  },
+  "status": {
+    "partition_0": {
+      "mft": false,
+      "usn": true,
+      "registry": true,
+      "logs": true,
+      "timeline": true,
+      "shadow_copies": true,
+      "hidden_structures": true,
+      "timestomp": true,
+      "raw_usn_journal": false,
+      "raw_logfile": false,
+      "raw_volume": false,
+      "raw_boot": true,
+      "raw_mft": false
+    },
+    "partition_1": {
+      "mft": true,
+      "usn": true,
+      "registry": true,
+      "logs": true,
+      "timeline": true,
+      "shadow_copies": true,
+      "hidden_structures": true,
+      "timestomp": true,
+      "raw_usn_journal": false,
+      "raw_logfile": false,
+      "raw_volume": false,
+      "raw_boot": true,
+      "raw_mft": false
+    }
+  }
+}

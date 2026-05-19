@@ -1,0 +1,1219 @@
+{
+  "analysis_summary": {
+    "total_files_analyzed": 37,
+    "suspicious_files": 22,
+    "critical": 0,
+    "high": 0,
+    "medium": 13,
+    "partitions_analyzed": 1
+  },
+  "partition_results": [
+    {
+      "partition": 0,
+      "result": {
+        "analysis_summary": {
+          "total_files_analyzed": 37,
+          "suspicious_files": 13,
+          "critical": 0,
+          "high": 0,
+          "medium": 13
+        },
+        "findings": [
+          {
+            "file_reference": 500,
+            "filename": "#ui",
+            "total_score": 30.0,
+            "severity": "MEDIUM",
+            "is_suspicious": true,
+            "confidence": 0.6,
+            "explanation": "SI/FN: Modified mismatch: 40600428s",
+            "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 535,
+            "filename": "ERC",
+            "total_score": 30.0,
+            "severity": "MEDIUM",
+            "is_suspicious": true,
+            "confidence": 0.6,
+            "explanation": "SI/FN: Modified mismatch: 39827569s",
+            "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 4973,
+            "filename": "WMI",
+            "total_score": 30.0,
+            "severity": "MEDIUM",
+            "is_suspicious": true,
+            "confidence": 0.6,
+            "explanation": "SI/FN: Created mismatch: 505s, Modified mismatch: 142333695s",
+            "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 5046,
+            "filename": "Wat",
+            "total_score": 30.0,
+            "severity": "MEDIUM",
+            "is_suspicious": true,
+            "confidence": 0.6,
+            "explanation": "SI/FN: Created mismatch: 504s, Modified mismatch: 41986613s",
+            "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 5052,
+            "filename": "Wat",
+            "total_score": 30.0,
+            "severity": "MEDIUM",
+            "is_suspicious": true,
+            "confidence": 0.6,
+            "explanation": "SI/FN: Modified mismatch: 41986613s",
+            "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 5063,
+            "filename": "Scm",
+            "total_score": 30.0,
+            "severity": "MEDIUM",
+            "is_suspicious": true,
+            "confidence": 0.6,
+            "explanation": "SI/FN: Created mismatch: 504s, Modified mismatch: 39737704s",
+            "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 5417,
+            "filename": "CSC",
+            "total_score": 30.0,
+            "severity": "MEDIUM",
+            "is_suspicious": true,
+            "confidence": 0.6,
+            "explanation": "SI/FN: Modified mismatch: 42020877s",
+            "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 5478,
+            "filename": "X02",
+            "total_score": 30.0,
+            "severity": "MEDIUM",
+            "is_suspicious": true,
+            "confidence": 0.6,
+            "explanation": "SI/FN: Modified mismatch: 130047533s",
+            "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 5517,
+            "filename": "OEM",
+            "total_score": 30.0,
+            "severity": "MEDIUM",
+            "is_suspicious": true,
+            "confidence": 0.6,
+            "explanation": "SI/FN: Modified mismatch: 185102839s",
+            "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 5617,
+            "filename": "CBS",
+            "total_score": 30.0,
+            "severity": "MEDIUM",
+            "is_suspicious": true,
+            "confidence": 0.6,
+            "explanation": "SI/FN: Modified mismatch: 41037209s",
+            "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 5696,
+            "filename": "dmp",
+            "total_score": 30.0,
+            "severity": "MEDIUM",
+            "is_suspicious": true,
+            "confidence": 0.6,
+            "explanation": "SI/FN: Modified mismatch: 185103340s",
+            "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 5698,
+            "filename": "AIT",
+            "total_score": 30.0,
+            "severity": "MEDIUM",
+            "is_suspicious": true,
+            "confidence": 0.6,
+            "explanation": "SI/FN: Modified mismatch: 142336459s",
+            "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 5703,
+            "filename": "SQM",
+            "total_score": 30.0,
+            "severity": "MEDIUM",
+            "is_suspicious": true,
+            "confidence": 0.6,
+            "explanation": "SI/FN: Modified mismatch: 41970550s",
+            "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 3309,
+            "filename": "MMC",
+            "total_score": 15.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "SI/FN: Created mismatch: 3s, Modified mismatch: 3s",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 4216,
+            "filename": "wdi",
+            "total_score": 15.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "SI/FN: Created mismatch: 1s, Modified mismatch: 1s",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 4882,
+            "filename": "inf",
+            "total_score": 15.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "SI/FN: Created mismatch: 5s, Modified mismatch: 5s",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": [
+              "Layer1 (SI vs FN)"
+            ]
+          },
+          {
+            "file_reference": 189,
+            "filename": "RSA",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 534,
+            "filename": "WER",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 4171,
+            "filename": "Pbk",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 4356,
+            "filename": "SAM",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5008,
+            "filename": "SMI",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5359,
+            "filename": "DVD",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5360,
+            "filename": "EFI",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5364,
+            "filename": "EFI",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5440,
+            "filename": "PCW",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5473,
+            "filename": "PAL",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5477,
+            "filename": "MCX",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5480,
+            "filename": "wow",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5485,
+            "filename": "ELS",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5487,
+            "filename": "MCT",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5515,
+            "filename": "mui",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5520,
+            "filename": "IME",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5660,
+            "filename": "MUI",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5695,
+            "filename": "com",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5699,
+            "filename": "Fax",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5751,
+            "filename": "Web",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          },
+          {
+            "file_reference": 5755,
+            "filename": "MUI",
+            "total_score": 0.0,
+            "severity": "LOW",
+            "is_suspicious": false,
+            "confidence": 0.3,
+            "explanation": "No anomalies detected across any layer",
+            "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+            "affected_layers": []
+          }
+        ],
+        "suspicious_files": [
+          {
+            "file_reference": 52,
+            "filename": "Low",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Created mismatch: 24s, Modified mismatch: 40600430s"
+          },
+          {
+            "file_reference": 94,
+            "filename": "Low",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Created mismatch: 24s, Modified mismatch: 40600473s"
+          },
+          {
+            "file_reference": 174,
+            "filename": "Low",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Created mismatch: 23s, Modified mismatch: 40598510s"
+          },
+          {
+            "file_reference": 239,
+            "filename": "Low",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Created mismatch: 23s, Modified mismatch: 40600473s"
+          },
+          {
+            "file_reference": 241,
+            "filename": "Low",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Created mismatch: 23s, Modified mismatch: 40600473s"
+          },
+          {
+            "file_reference": 424,
+            "filename": "Low",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Created mismatch: 23s, Modified mismatch: 40600432s"
+          },
+          {
+            "file_reference": 500,
+            "filename": "#ui",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Modified mismatch: 40600428s"
+          },
+          {
+            "file_reference": 535,
+            "filename": "ERC",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Modified mismatch: 39827569s"
+          },
+          {
+            "file_reference": 4142,
+            "filename": "Low",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Modified mismatch: 41969911s"
+          },
+          {
+            "file_reference": 4147,
+            "filename": "Low",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Modified mismatch: 41969911s"
+          },
+          {
+            "file_reference": 4148,
+            "filename": "Low",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Modified mismatch: 41969911s"
+          },
+          {
+            "file_reference": 4973,
+            "filename": "WMI",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Created mismatch: 505s, Modified mismatch: 142333695s"
+          },
+          {
+            "file_reference": 5046,
+            "filename": "Wat",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Created mismatch: 504s, Modified mismatch: 41986613s"
+          },
+          {
+            "file_reference": 5052,
+            "filename": "Wat",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Modified mismatch: 41986613s"
+          },
+          {
+            "file_reference": 5063,
+            "filename": "Scm",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Created mismatch: 504s, Modified mismatch: 39737704s"
+          },
+          {
+            "file_reference": 5417,
+            "filename": "CSC",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Modified mismatch: 42020877s"
+          },
+          {
+            "file_reference": 5478,
+            "filename": "X02",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Modified mismatch: 130047533s"
+          },
+          {
+            "file_reference": 5517,
+            "filename": "OEM",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Modified mismatch: 185102839s"
+          },
+          {
+            "file_reference": 5617,
+            "filename": "CBS",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Modified mismatch: 41037209s"
+          },
+          {
+            "file_reference": 5696,
+            "filename": "dmp",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Modified mismatch: 185103340s"
+          },
+          {
+            "file_reference": 5698,
+            "filename": "AIT",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Modified mismatch: 142336459s"
+          },
+          {
+            "file_reference": 5703,
+            "filename": "SQM",
+            "severity": "MEDIUM",
+            "score": 30.0,
+            "explanation": "SI/FN: Modified mismatch: 41970550s"
+          }
+        ]
+      },
+      "type": "binary"
+    }
+  ],
+  "findings": [
+    {
+      "file_reference": 500,
+      "filename": "#ui",
+      "total_score": 30.0,
+      "severity": "MEDIUM",
+      "is_suspicious": true,
+      "confidence": 0.6,
+      "explanation": "SI/FN: Modified mismatch: 40600428s",
+      "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 535,
+      "filename": "ERC",
+      "total_score": 30.0,
+      "severity": "MEDIUM",
+      "is_suspicious": true,
+      "confidence": 0.6,
+      "explanation": "SI/FN: Modified mismatch: 39827569s",
+      "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 4973,
+      "filename": "WMI",
+      "total_score": 30.0,
+      "severity": "MEDIUM",
+      "is_suspicious": true,
+      "confidence": 0.6,
+      "explanation": "SI/FN: Created mismatch: 505s, Modified mismatch: 142333695s",
+      "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 5046,
+      "filename": "Wat",
+      "total_score": 30.0,
+      "severity": "MEDIUM",
+      "is_suspicious": true,
+      "confidence": 0.6,
+      "explanation": "SI/FN: Created mismatch: 504s, Modified mismatch: 41986613s",
+      "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 5052,
+      "filename": "Wat",
+      "total_score": 30.0,
+      "severity": "MEDIUM",
+      "is_suspicious": true,
+      "confidence": 0.6,
+      "explanation": "SI/FN: Modified mismatch: 41986613s",
+      "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 5063,
+      "filename": "Scm",
+      "total_score": 30.0,
+      "severity": "MEDIUM",
+      "is_suspicious": true,
+      "confidence": 0.6,
+      "explanation": "SI/FN: Created mismatch: 504s, Modified mismatch: 39737704s",
+      "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 5417,
+      "filename": "CSC",
+      "total_score": 30.0,
+      "severity": "MEDIUM",
+      "is_suspicious": true,
+      "confidence": 0.6,
+      "explanation": "SI/FN: Modified mismatch: 42020877s",
+      "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 5478,
+      "filename": "X02",
+      "total_score": 30.0,
+      "severity": "MEDIUM",
+      "is_suspicious": true,
+      "confidence": 0.6,
+      "explanation": "SI/FN: Modified mismatch: 130047533s",
+      "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 5517,
+      "filename": "OEM",
+      "total_score": 30.0,
+      "severity": "MEDIUM",
+      "is_suspicious": true,
+      "confidence": 0.6,
+      "explanation": "SI/FN: Modified mismatch: 185102839s",
+      "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 5617,
+      "filename": "CBS",
+      "total_score": 30.0,
+      "severity": "MEDIUM",
+      "is_suspicious": true,
+      "confidence": 0.6,
+      "explanation": "SI/FN: Modified mismatch: 41037209s",
+      "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 5696,
+      "filename": "dmp",
+      "total_score": 30.0,
+      "severity": "MEDIUM",
+      "is_suspicious": true,
+      "confidence": 0.6,
+      "explanation": "SI/FN: Modified mismatch: 185103340s",
+      "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 5698,
+      "filename": "AIT",
+      "total_score": 30.0,
+      "severity": "MEDIUM",
+      "is_suspicious": true,
+      "confidence": 0.6,
+      "explanation": "SI/FN: Modified mismatch: 142336459s",
+      "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 5703,
+      "filename": "SQM",
+      "total_score": 30.0,
+      "severity": "MEDIUM",
+      "is_suspicious": true,
+      "confidence": 0.6,
+      "explanation": "SI/FN: Modified mismatch: 41970550s",
+      "recommendation": "Monitor file activity. Verify if timestamp modification was intentional (e.g., software installation).",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 3309,
+      "filename": "MMC",
+      "total_score": 15.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "SI/FN: Created mismatch: 3s, Modified mismatch: 3s",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 4216,
+      "filename": "wdi",
+      "total_score": 15.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "SI/FN: Created mismatch: 1s, Modified mismatch: 1s",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 4882,
+      "filename": "inf",
+      "total_score": 15.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "SI/FN: Created mismatch: 5s, Modified mismatch: 5s",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": [
+        "Layer1 (SI vs FN)"
+      ]
+    },
+    {
+      "file_reference": 189,
+      "filename": "RSA",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 534,
+      "filename": "WER",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 4171,
+      "filename": "Pbk",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 4356,
+      "filename": "SAM",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5008,
+      "filename": "SMI",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5359,
+      "filename": "DVD",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5360,
+      "filename": "EFI",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5364,
+      "filename": "EFI",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5440,
+      "filename": "PCW",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5473,
+      "filename": "PAL",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5477,
+      "filename": "MCX",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5480,
+      "filename": "wow",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5485,
+      "filename": "ELS",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5487,
+      "filename": "MCT",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5515,
+      "filename": "mui",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5520,
+      "filename": "IME",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5660,
+      "filename": "MUI",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5695,
+      "filename": "com",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5699,
+      "filename": "Fax",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5751,
+      "filename": "Web",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    },
+    {
+      "file_reference": 5755,
+      "filename": "MUI",
+      "total_score": 0.0,
+      "severity": "LOW",
+      "is_suspicious": false,
+      "confidence": 0.3,
+      "explanation": "No anomalies detected across any layer",
+      "recommendation": "No action required. File timestamps are consistent across all NTFS layers.",
+      "affected_layers": []
+    }
+  ],
+  "suspicious_files": [
+    {
+      "file_reference": 52,
+      "filename": "Low",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Created mismatch: 24s, Modified mismatch: 40600430s"
+    },
+    {
+      "file_reference": 94,
+      "filename": "Low",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Created mismatch: 24s, Modified mismatch: 40600473s"
+    },
+    {
+      "file_reference": 174,
+      "filename": "Low",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Created mismatch: 23s, Modified mismatch: 40598510s"
+    },
+    {
+      "file_reference": 239,
+      "filename": "Low",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Created mismatch: 23s, Modified mismatch: 40600473s"
+    },
+    {
+      "file_reference": 241,
+      "filename": "Low",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Created mismatch: 23s, Modified mismatch: 40600473s"
+    },
+    {
+      "file_reference": 424,
+      "filename": "Low",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Created mismatch: 23s, Modified mismatch: 40600432s"
+    },
+    {
+      "file_reference": 500,
+      "filename": "#ui",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Modified mismatch: 40600428s"
+    },
+    {
+      "file_reference": 535,
+      "filename": "ERC",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Modified mismatch: 39827569s"
+    },
+    {
+      "file_reference": 4142,
+      "filename": "Low",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Modified mismatch: 41969911s"
+    },
+    {
+      "file_reference": 4147,
+      "filename": "Low",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Modified mismatch: 41969911s"
+    },
+    {
+      "file_reference": 4148,
+      "filename": "Low",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Modified mismatch: 41969911s"
+    },
+    {
+      "file_reference": 4973,
+      "filename": "WMI",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Created mismatch: 505s, Modified mismatch: 142333695s"
+    },
+    {
+      "file_reference": 5046,
+      "filename": "Wat",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Created mismatch: 504s, Modified mismatch: 41986613s"
+    },
+    {
+      "file_reference": 5052,
+      "filename": "Wat",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Modified mismatch: 41986613s"
+    },
+    {
+      "file_reference": 5063,
+      "filename": "Scm",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Created mismatch: 504s, Modified mismatch: 39737704s"
+    },
+    {
+      "file_reference": 5417,
+      "filename": "CSC",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Modified mismatch: 42020877s"
+    },
+    {
+      "file_reference": 5478,
+      "filename": "X02",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Modified mismatch: 130047533s"
+    },
+    {
+      "file_reference": 5517,
+      "filename": "OEM",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Modified mismatch: 185102839s"
+    },
+    {
+      "file_reference": 5617,
+      "filename": "CBS",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Modified mismatch: 41037209s"
+    },
+    {
+      "file_reference": 5696,
+      "filename": "dmp",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Modified mismatch: 185103340s"
+    },
+    {
+      "file_reference": 5698,
+      "filename": "AIT",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Modified mismatch: 142336459s"
+    },
+    {
+      "file_reference": 5703,
+      "filename": "SQM",
+      "severity": "MEDIUM",
+      "score": 30.0,
+      "explanation": "SI/FN: Modified mismatch: 41970550s"
+    }
+  ]
+}

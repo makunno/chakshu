@@ -1,0 +1,21 @@
+Shadow Copy / VSS Indicators for Partition 0
+Image: /home/utsav/Github/Cyber Chakshu/siem-tool/imageProcessor/jo-favorites-usb-2009-12-11.E01
+================================================================================
+
+Potential Shadow Copy / VSS Related Files:
+++++ r/r 1687:	0.shadowIndexHead
+++++ r/r 1694:	0.shadowIndexGroups
+++++ r/r * 1729:	1.shadowIndexHead
+++++ r/r 1757:	live.0.shadowIndexHead
+++++ r/r 1763:	live.0.shadowIndexTermIds
+++++ r/r * 1768:	2.shadowIndexHead
+++++ r/r * 1771:	0.shadowIndexGroups
+++++ r/r 1783:	live.0.shadowIndexArrays
+++++ r/r * 19980:	2.shadowIndex
+++++ r/r * 19985:	2.shadowIndexGroups
+++++ r/r 19999:	live.0.shadowIndexPositionTable
+++++ r/r 20003:	live.0.shadowIndexCompactDirectory
+++++ r/r 20019:	live.0.shadowIndexDirectory
+++++ r/r 20022:	live.0.shadowIndexGroups
+++++ r/r * 20032:	tmp.merge.0.shadowIndexHead
+++++ r/r * 20049:	tmp.merge.0.shadowIndexGroups

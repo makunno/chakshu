@@ -1,0 +1,98 @@
+{
+  "log_type": "zeek",
+  "category": "network",
+  "description": "Zeek network security logs",
+  "version": "1.0.0",
+  "trained_at": "2026-02-03T12:26:22.453305",
+  "feature_names": [
+    "error_count",
+    "error_rate",
+    "line_count",
+    "unique_ips"
+  ],
+  "features": [
+    "connection_count",
+    "unique_src_ips",
+    "unique_dst_ips",
+    "unique_ports",
+    "bytes_transferred",
+    "duration",
+    "protocol_distribution"
+  ],
+  "attack_patterns": [
+    "reconnaissance",
+    "exfiltration",
+    "c2_communication"
+  ],
+  "feature_statistics": {
+    "means": [
+      13.741666666666667,
+      0.06973541666666666,
+      198.33333333333334,
+      0.0
+    ],
+    "stds": [
+      75.76065239199266,
+      0.10146577617855605,
+      798.2264624408396,
+      0.001
+    ],
+    "mins": [
+      0.0,
+      0.0,
+      100.0,
+      0.0
+    ],
+    "maxs": [
+      833.0,
+      0.29,
+      8000.0,
+      0.0
+    ]
+  },
+  "model": {
+    "type": "isolation_forest",
+    "n_estimators": 100,
+    "contamination": 0.2,
+    "score_range": [
+      -0.36159575755179885,
+      0.07110970447597786
+    ],
+    "score_mean": 0.032817421301188664,
+    "score_std": 0.0747408035966286,
+    "anomaly_threshold": 0.0,
+    "training_samples": 120,
+    "accuracy": 0.85,
+    "score_distribution": {
+      "min": -0.36159575755179885,
+      "max": 0.07110970447597786,
+      "mean": 0.032817421301188664,
+      "percentile_5": -0.118217316128314,
+      "percentile_95": 0.07110970447597786
+    }
+  },
+  "attack_labels": {
+    "normal": 0,
+    "bruteforce": 1,
+    "password_spray": 2,
+    "sql_injection": 3,
+    "xss_attack": 4,
+    "path_traversal": 5,
+    "command_injection": 6,
+    "privilege_escalation": 7,
+    "data_exfiltration": 8,
+    "port_scan": 9,
+    "reconnaissance": 10,
+    "malware_activity": 11,
+    "c2_communication": 12,
+    "dos": 13,
+    "ransomware": 14,
+    "log4shell": 15,
+    "insider_threat": 16,
+    "account_takeover": 17,
+    "lateral_movement": 18,
+    "cryptomining": 19,
+    "webshell": 20,
+    "anomaly": 21
+  }
+}
